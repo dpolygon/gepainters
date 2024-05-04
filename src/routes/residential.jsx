@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function residential() {
+export default function Residential() {
   return (
     <div>residential</div>
   )
