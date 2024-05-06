@@ -1,34 +1,39 @@
 import { useState } from 'react'
+import {APIProvider, Map, Marker} from '@vis.gl/react-google-maps';
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+
+import Navbar from './components/navbar';
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const position = {lat: 30.2672, lng: -97.7421};
+  const google_api_key = 'AIzaSyAfBQOwVbqM7dFMmvurj2PaZIfP0JTAj2o';
 
   return (
-    <>
+    <div style={{margin: '.4rem 2rem'}}>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <div style={{display: 'flex', flexDirection: 'horizontal', justifyContent: 'space-between', alignItems: 'center'}}>            
+          <h1 className='companyName'>gepainters</h1>
+          <Navbar/>
+        </div>
+        <div style={{width: '50vw'}}>
+          <h1 className='companyDesc'>Painting & Renovation in Central Texas</h1>
+          <h1 className='companyServiceReach'>Serving Austin and the greater Austin metropolitan area</h1>
+          <h1 className='companyServiceReach' style={{marginBottom: '30px'}}>including Georgetown, Buda, San Marcos, Bastrop, Dripping Springs, Pflugerville, Round Rock, Cedar Park, Leander, Kyle, and Lakeway.</h1>
+          <APIProvider apiKey={google_api_key}>
+            <Map
+              style={{width: '40vw', height: '40vh', borderRadius: '33px'}}
+              defaultCenter={position}
+              defaultZoom={9}
+              gestureHandling={'none'}
+              disableDefaultUI={true}
+            />
+          </APIProvider>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 
