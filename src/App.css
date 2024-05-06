@@ -14,25 +14,51 @@
 }
 
 .companyName {
-  font-size: 12vw;
+  font-size: 13vw;
   margin-bottom: 20px;
   font-weight: 550;
+  display: flex;
+  align-items: center;
 }
 
 .companyDesc {
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 28px;
+  font-weight: 700;
   line-height: 33px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
+  letter-spacing: .02em;
 }
 
 .companyServiceReach {
-  font-size: 17px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: .04em;
+  line-height: 1.6;
 }
 
 .navbar {
   font-size: 22px;
-  color: white;
   text-decoration: none;
+}
+
+.secondary-navbar {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .companyDesc {
+    font-size: 22px;
+  }
+
+  .companyServiceReach {
+    font-size: 18px;
+  }
+
+  .primary-navbar {
+    display: none;
+  }
+
+  .secondary-navbar {
+    display: flex;
+  }
 }

@@ -11,6 +11,9 @@ import App from './App.jsx'
 import ErrorPage from './routes/errorpage.jsx';
 import Residential from './routes/residential.jsx';
 import Commercial from './routes/commercial.jsx';
+import About from './routes/about.jsx';
+import Contact from './routes/contact.jsx'
+
 import './index.css'
 
 const router = createBrowserRouter([
@@ -28,6 +31,14 @@ const router = createBrowserRouter([
       {
         path: '/commercial',
         element: <Commercial/>
+      },
+      {
+        path: '/about',
+        element: <About/>
+      },
+      {
+        path: '/contact',
+        element: <Contact/>
       }
     ]
   }
