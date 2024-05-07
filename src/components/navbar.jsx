@@ -9,7 +9,7 @@ import { RiInformation2Fill } from "react-icons/ri";
 export default function Navbar() {
   return (
     <nav style={{display: 'flex', alignItems: 'center'}}>
-        <IoHomeSharp style={{fontSize: '16px'}}/>
+        <IoHomeSharp style={{fontSize: '17px'}}/>
         <NavLink style={{marginRight: '30px'}} className='navbar' to='residential'>
           Residential
         </NavLink>

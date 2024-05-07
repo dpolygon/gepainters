@@ -13,7 +13,7 @@ function App() {
     <div style={{margin:  '2rem'}}>
       <div>
         <div style={{display: 'flex', flexDirection: 'horizontal', justifyContent: 'space-between', alignItems: 'center'}}>            
-          <h1 className='companyName'>ge painters</h1>
+          <h1 className='companyName'>gepainters</h1>
           <div className='primary-navbar'>
             <Navbar/>
           </div>
