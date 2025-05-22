@@ -1,0 +1,17 @@
+<h1 className='companyDesc'>Painting & Renovation in Central Texas</h1>
+          <div className='secondary-navbar' style={{marginBottom: '40px'}}>
+            <Navbar/>
+          </div>
+          <h1 className='companyServiceReach'>Serving Austin and the greater Austin metropolitan area</h1>
+          <h1 className='companyServiceReach' style={{marginBottom: '60px'}}>including Georgetown, Buda, San Marcos, Bastrop, Dripping Springs, Pflugerville, Round Rock, Cedar Park, Leander, Kyle, and Lakeway.</h1>
+
+
+          <APIProvider apiKey={google_api_key}>
+            <Map
+              style={{width: '40vw', height: '40vh', borderRadius: '33px'}}
+              defaultCenter={position}
+              defaultZoom={9}
+              gestureHandling={'none'}
+              disableDefaultUI={true}
+            />
+          </APIProvider>

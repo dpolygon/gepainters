@@ -1,30 +1,26 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-import { IoHomeSharp } from "react-icons/io5";
-import { FaWarehouse } from "react-icons/fa";
-import { FaPhone } from "react-icons/fa6";
-import { RiInformation2Fill } from "react-icons/ri";
-
+import { Link, NavLink } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <nav style={{display: 'flex', alignItems: 'center'}}>
-        <IoHomeSharp style={{fontSize: '17px'}}/>
-        <NavLink style={{marginRight: '30px'}} className='navbar' to='residential'>
-          Residential
-        </NavLink>
-        <FaWarehouse style={{fontSize: '18px'}}/> 
-        <NavLink style={{marginRight: '30px'}} className='navbar' to='commercial'>
-          Commercial
-        </NavLink>
-        <FaPhone style={{fontSize: '15px'}}/>
-        <NavLink style={{marginRight: '30px'}} className='navbar' to='contact'>
-          Contact
-        </NavLink>
-        <RiInformation2Fill style={{fontSize: '20px'}}/>
-        <NavLink className='navbar' to='about'>
-          AboutUs
-        </NavLink>
-    </nav>
+    <div className='navbar-wrapper'>
+      <nav className='navbar'>
+          <Link className='navbar-items' to='/'>
+            GEPainters
+          </Link>
+          <NavLink className='navbar-items' to='residential'>
+            Residential
+          </NavLink>
+          <NavLink className='navbar-items' to='commercial'>
+            Commercial
+          </NavLink>
+          <NavLink className='navbar-items' to='contact'>
+            Contact
+          </NavLink>
+          <NavLink className='navbar-items' to='about'>
+            AboutUs
+          </NavLink>
+      </nav>
+    </div>
   )
 }

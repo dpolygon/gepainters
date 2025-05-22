@@ -5,8 +5,11 @@ import {
   RouterProvider,
   Link,
   Router,
+  Outlet
 } from "react-router-dom";
 import App from './App.jsx'
+
+import Navbar from './components/navbar.jsx';
 
 import ErrorPage from './routes/errorpage.jsx';
 import Residential from './routes/residential.jsx';
@@ -16,8 +19,18 @@ import Contact from './routes/contact.jsx'
 
 import './index.css'
 
+const Applayout = () => {
+  return (
+    <>
+      <Navbar/>
+      <Outlet/>
+    </>
+  )
+}
+
 const router = createBrowserRouter([
   {
+    element: <Applayout/>,
     errorElement: <ErrorPage/>,
     children: [
       {

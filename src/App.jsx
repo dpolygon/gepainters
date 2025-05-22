@@ -1,7 +1,11 @@
 import { useState } from 'react'
 import {APIProvider, Map, Marker} from '@vis.gl/react-google-maps';
+import { TbHomeHeart } from "react-icons/tb";
+import { GoNorthStar } from "react-icons/go";
+import { MdAddBusiness } from "react-icons/md";
 
-import Navbar from './components/navbar';
+
+import ServiceCell from './components/servicecell'
 import './App.css'
 
 function App() {
@@ -10,33 +14,26 @@ function App() {
   const google_api_key = 'AIzaSyAfBQOwVbqM7dFMmvurj2PaZIfP0JTAj2o';
 
   return (
-    <div style={{margin:  '2rem'}}>
-      <div>
-        <div style={{display: 'flex', flexDirection: 'horizontal', justifyContent: 'space-between', alignItems: 'center'}}>            
-          <h1 className='companyName'>gepainters</h1>
-          <div className='primary-navbar'>
-            <Navbar/>
+      <div style={{display: 'flex', flexDirection: 'column', width: '100%'}}>
+        <div className='homesplash'>
+          <video loop autoPlay muted className='homepage-broll'>
+            <source src='src/assets/May Hero on Vimeo.mp4' type='video/mp4'/>
+          </video>
+          <h1 style={{marginTop: '2rem'}}>GEPainters</h1>
+          <div style={{marginBottom: '2rem'}}>
+            <h2 style={{fontSize: '4rem', paddingBottom: '1rem', borderBottomStyle: 'solid', borderBottomWidth: '1px', marginBottom: '1rem'}}>Painting that brings out the best in every space</h2>
+            <h4>Serving the Austin area for over 20 years — from homes to high-traffic commercial spaces, we deliver eco-friendly, lasting finishes with expert care.</h4>
           </div>
         </div>
-        <div style={{width: '50vw'}}>
-          <h1 className='companyDesc'>Painting & Renovation in Central Texas</h1>
-          <div className='secondary-navbar' style={{marginBottom: '40px'}}>
-            <Navbar/>
+        <div className='services-summary'>
+          <h1>Services We Offer</h1>
+          <div className='services'>
+            <ServiceCell src='src/assets/residential.jpg' title='Residential' icon={TbHomeHeart} subtitle='Make your house feel like home inside and out' desc='From modern makeovers to careful restorations, we specialize in custom interior and exterior painting, trim work, and surface repairs that stand the test of time.'/>
+            <ServiceCell src='src/assets/commercial.jpg' title='Commercial' icon={MdAddBusiness} subtitle='We help Austin’s businesses look their best' desc='Whether it’s a fresh coat for a retail space, durable finishes for apartments, or precision striping in a parking lot.'/>
+            <ServiceCell src='src/assets/other.jpg' title='Specialty Surfaces & Finishes' icon={GoNorthStar} subtitle='More than just paint' desc='From epoxy floors to cabinet refinishing, our team delivers expert finishes on a wide range of surfaces — brick, stucco, siding, metal doors, and more.'/>
           </div>
-          <h1 className='companyServiceReach'>Serving Austin and the greater Austin metropolitan area</h1>
-          <h1 className='companyServiceReach' style={{marginBottom: '60px'}}>including Georgetown, Buda, San Marcos, Bastrop, Dripping Springs, Pflugerville, Round Rock, Cedar Park, Leander, Kyle, and Lakeway.</h1>
-          <APIProvider apiKey={google_api_key}>
-            <Map
-              style={{width: '40vw', height: '40vh', borderRadius: '33px'}}
-              defaultCenter={position}
-              defaultZoom={9}
-              gestureHandling={'none'}
-              disableDefaultUI={true}
-            />
-          </APIProvider>
         </div>
       </div>
-    </div>
   )
 }
 
