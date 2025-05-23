@@ -40,14 +40,14 @@
   display: flex;
   flex-direction: column;
   height: calc(100vh - 2rem);
-  margin-left: 2rem;
+  margin-left: 2rem; 
   justify-content: space-between;
 }
 
 .homepage-broll {
   position: absolute;
   object-fit: cover;
-  min-width: 100vw;
+  width: 100vw;
   height: 100vh;
   top: 50%;
   left: 50%;
@@ -65,9 +65,13 @@
   z-index: 999;
 }
 .navbar {
+  backdrop-filter: blur(8px) saturate(200%);
+  -webkit-backdrop-filter: blur(8px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.83);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
   display: flex;
   padding: 20px;
-  background-color: white;
   border-radius: 10px;
 }
 
@@ -84,23 +88,50 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 130vh;
-  background-image: linear-gradient(to bottom, black , rgb(240, 240, 240));
+  height: auto;
+  background-image:  linear-gradient(
+    180deg,
+    hsl(0deg 0% 0%) 0%,
+    hsl(343deg 0% 5%) 4%,
+    hsl(343deg 0% 9%) 8%,
+    hsl(344deg 0% 12%) 11%,
+    hsl(344deg 0% 15%) 14%,
+    hsl(344deg 0% 19%) 16%,
+    hsl(344deg 0% 22%) 18%,
+    hsl(344deg 0% 26%) 20%,
+    hsl(344deg 0% 29%) 22%,
+    hsl(344deg 0% 33%) 23%,
+    hsl(344deg 0% 36%) 25%,
+    hsl(344deg 0% 40%) 26%,
+    hsl(344deg 0% 44%) 28%,
+    hsl(344deg 0% 48%) 30%,
+    hsl(344deg 0% 52%) 31%,
+    hsl(344deg 0% 56%) 33%,
+    hsl(344deg 0% 60%) 35%,
+    hsl(344deg 0% 64%) 38%,
+    hsl(344deg 0% 68%) 41%,
+    hsl(344deg 0% 72%) 45%,
+    hsl(344deg 0% 77%) 50%,
+    hsl(344deg 0% 81%) 56%,
+    hsl(344deg 0% 85%) 64%,
+    hsl(344deg 0% 90%) 77%,
+    hsl(0deg 0% 94%) 100%
+  );
   z-index: -4;
 }
 
 .services {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
   align-items: center;
-  width: 100%;
+  margin: 2rem;
+  width: auto;
   height: 100%;
 }
 
 .choose-gepainters {
-  background-color: rgb(240, 240, 240);
-  height: 100vh;
+  height: 110vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -109,38 +140,47 @@
 }
 
 .gradient-text {
+  display: inline;
+  color: transparent;
   background-image: url('src/assets/textgradient.jpg');
   background-size: cover;
+  -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: none;
 }
 
 .gepainters-minigallery {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(240, 240, 240);
-  height: 90vh;
+  height: auto;
+  margin-bottom: 4rem;
 }
 
 .partners-area {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(240, 240, 240);
   height: auto;
+  margin-bottom: 4rem;
 }
 
 .areas-served {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(240, 240, 240);
-  height: 50vh;
+  height: auto;
+  margin: 5rem 0 5rem 0;
 }
 
-.areas-text {
+.areas-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
   width: 74vw;
+  height: 70vh;
+  overflow: hidden;
 }
 
 .secondary-navbar {

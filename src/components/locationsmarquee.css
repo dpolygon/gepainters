@@ -1,0 +1,28 @@
+.marquee-container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee-content {
+  display: flex;
+  flex-direction: column;
+  animation: scroll-up 50s linear infinite;
+}
+
+.marquee-inner {
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+@keyframes scroll-up {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-50%);
+  }
+}
