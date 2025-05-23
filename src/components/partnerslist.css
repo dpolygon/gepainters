@@ -1,0 +1,12 @@
+.partners-list {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.partner-logo {
+    height: 60px;
+    max-width: 200px;
+    scale: 1;
+    margin: 2rem;
+}

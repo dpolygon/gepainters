@@ -41,7 +41,6 @@
   flex-direction: column;
   height: calc(100vh - 2rem);
   margin-left: 2rem;
-  margin-bottom: 2rem;
   justify-content: space-between;
 }
 
@@ -63,6 +62,7 @@
   width: 100%;
   top: 2rem;
   right: 1rem;
+  z-index: 999;
 }
 .navbar {
   display: flex;
@@ -84,9 +84,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 2rem;
-  margin-left: 2rem;
-  height: 95vh;
+  height: 130vh;
+  background-image: linear-gradient(to bottom, black , rgb(240, 240, 240));
+  z-index: -4;
 }
 
 .services {
@@ -96,6 +96,51 @@
   align-items: center;
   width: 100%;
   height: 100%;
+}
+
+.choose-gepainters {
+  background-color: rgb(240, 240, 240);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.gradient-text {
+  background-image: url('src/assets/textgradient.jpg');
+  background-size: cover;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gepainters-minigallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  height: 90vh;
+}
+
+.partners-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  height: auto;
+}
+
+.areas-served {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  height: 50vh;
+}
+
+.areas-text {
+  width: 74vw;
 }
 
 .secondary-navbar {
