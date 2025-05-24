@@ -1,9 +1,16 @@
 .carrossel {
+  justify-items: center;
     width: 74vw;
     height: 74vh;
     position: relative;
     border-radius: 32px;
     overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .carrossel {
+    width: 80vw;
+  }
 }
 
 @keyframes fade {

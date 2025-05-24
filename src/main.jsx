@@ -18,12 +18,14 @@ import About from './routes/about.jsx';
 import Contact from './routes/contact.jsx'
 
 import './index.css'
+import Footer from './components/footer.jsx';
 
 const Applayout = () => {
   return (
     <>
       <Navbar/>
       <Outlet/>
+      <Footer/>
     </>
   )
 }

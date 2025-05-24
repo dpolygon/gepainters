@@ -4,6 +4,12 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
+@media screen and (max-width: 767px) {
+    .partners-list {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+}
+
 .partner-logo {
     height: 60px;
     max-width: 200px;

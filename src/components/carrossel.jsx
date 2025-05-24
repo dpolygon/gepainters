@@ -58,7 +58,7 @@ export default function Carrossel() {
     }
 
     return (
-        <div>
+        <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center'}}>
             <div className='carrossel'>
                     {sampleImages.map((imageUrl, index) => (
                         <div key={index} className={
@@ -78,7 +78,7 @@ export default function Carrossel() {
                     <IoIosArrowForward className='carrossel-arrows'/>
                 </button>
             </div>
-            <h2 style={{color: 'dimgrey', marginTop: '2rem'}}> The proof is in the <p className='gradient-text' style={{display: 'inline'}}>painting,</p> we'll let our work speak for us.</h2>
+            <h2 style={{color: 'dimgrey', margin: '2rem'}}> The proof is in the <p className='gradient-text' style={{display: 'inline'}}>painting,</p> we'll let our work speak for us.</h2>
         </div>
     )
 }
