@@ -22,7 +22,7 @@ function App() {
         <video loop autoPlay muted playsInline className='homepage-broll'>
           <source src='src/assets/May Hero on Vimeo.mp4' type='video/mp4' />
         </video>
-        <div style={{ padding: '2rem', display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+        <div style={{ margin: '2.75rem 0 0 2rem',  display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
           <img className='splash-logo' style={{ height: '60px', width: '60px', marginRight: '10px' }} src='src/assets/logo.svg'></img>
           <h1 className='splash-logo' style={{fontSize: 'clamp(2rem, 9vw, 3rem)'}}>G.E. Painters</h1>
         </div>

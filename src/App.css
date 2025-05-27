@@ -15,7 +15,11 @@
 }
 
 .splash-logo {
-  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  height: 100%;
 }
 
 .companyName {

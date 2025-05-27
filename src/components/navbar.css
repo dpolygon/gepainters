@@ -1,32 +1,113 @@
 .navbar {
     position: fixed;
     display: flex;
+    flex-direction: row;
+    overflow: hidden;
     top: 2rem;
     right: 1rem;
     z-index: 9999;
-    backdrop-filter: blur(14px) saturate(300%);
-    -webkit-backdrop-filter: blur(14px) saturate(300%);
-    background-color: rgba(255, 255, 255, 0.63);
+    background-color: rgb(0, 0, 0, .05);
+    backdrop-filter: blur(32px) saturate(400%);
+    -webkit-backdrop-filter: blur(32px) saturate(400%);
     border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.navbar-content {
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 0 0.75rem 1rem;
+    height: 85px;
+    transition: all 0.3s ease-in-out;
+
 }
 
 .navbar-items {
-    display: flex;
-    color: black;
     text-decoration: none;
     font-size: 19px;
-    margin-Right: 30px;
     font-weight: 500;
-    padding: 1.25rem;
+    padding: 1rem 1rem 1rem 0;
 }
 
-.menu-item {
+.menu-items {
     display: none;
-    text-decoration: none;
-    padding-left: 2rem;
 }
+
+.nav-buttons {
+    display: none;
+}
+
+.menu-selection {
+    display: none;
+}
+
+.menu-links {
+    text-decoration: none;
+    transition: transform .3s ease;
+    /* use transition, not animation */
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 1s ease forwards;
+    animation-delay: calc(var(--i) * .125s);
+}
+
+.menu-links:hover {
+    transform: scale(1.02);
+    /* use transform */
+    color: beige
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 
 @media screen and (max-width: 1100px) {
+    .navbar-content {
+        justify-content: space-between;
+        width: 100%;
+        align-items: stretch;
+    }
+
+    .navbar-content.active {
+        align-items: start;
+        height: 40vh;
+    }
+
+    .menu-selection {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 0px 0px 20px;
+        font-size: 2.25rem;
+        font-weight: 800;
+        text-align: left;
+    }
+
+    .navbar-items {
+        display: none;
+    }
+
+    .menu-items {
+        width: 100%;
+        display: flex;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        align-content: end;
+    }
+
+    .nav-buttons {
+        display: block;
+        scale: 2;
+    }
+
     .navbar {
         justify-content: space-between;
         align-content: center;
@@ -34,26 +115,10 @@
         left: 50%;
         transform: translateX(-50%);
         width: 90vw;
-        height: 5rem;
-        transition: height 0.4s ease-in-out;
-        /* Optional for smoother layout shift: */
-        transition: all 0.4s ease-in-out;
     }
 
-    .navbar.active {
-        height: 70vh;
-        align-content: start;
-    }
-
-    .navbar-items {
+    .page-title.active {
         display: none;
     }
 
-    .menu-item {
-        display: flex;
-    }
-
-    .fs {
-        display: none;
-    }
 }
