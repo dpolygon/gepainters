@@ -73,7 +73,7 @@ export default function Navbar() {
           Contact
         </NavLink>
         <NavLink className='navbar-items' to='about'>
-          AboutUs
+          About Us
         </NavLink>
       </div>
     </nav>

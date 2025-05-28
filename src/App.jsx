@@ -50,7 +50,7 @@ function App() {
       </div>
       <div className='partners-area'>
         <div style={{ width: '74vw' }}>
-          <h1 style={{ color: 'black', fontSize: '3rem' }}>We’ve proudly provided professional painting—and a range of finishing services—to some of the most respected names in Austin homebuilding and design.</h1>
+          <h1 style={{ color: 'black', fontSize: '3rem', textAlign: 'center' }}>We’ve proudly provided professional painting—and a range of finishing services—to some of the most respected names in Austin homebuilding and design.</h1>
           <div style={{ margin: '4rem 1rem 4rem 1rem' }}>
             <Partnerslist />
           </div>
@@ -60,9 +60,9 @@ function App() {
         </div>
       </div>
       <div className='areas-served'>
-        <div style={{ width: '74vw', marginBottom: '4rem' }}>
+        <h1 style={{color: 'black', fontSize: '3.5rem', width: '74vw', padding: '0 2rem 0 2rem'}}>Trusted Painting Experts in Central Texas</h1>
+        <div style={{ width: '74vw', margin: '4rem 0rem 4rem 0rem' }}>
           <h2 style={{ color: 'dimgrey' }}>With <p className='gradient-text'>over 25 years of experience,</p> we’ve proudly delivered high-quality residential and commercial painting services throughout Austin and the surrounding Central Texas area.</h2>
-          <h2 style={{ color: 'dimgrey' }}>Not sure if we serve your area or need a custom quote? Feel free to reach out — we’re always happy to answer questions and discuss your project.</h2>
         </div>
         <div className='areas-wrapper'>
           <div className='marquee-area'>
@@ -76,8 +76,11 @@ function App() {
           </div>
         </div>
       </div>
-      <div style={{textAlign: 'center', backgroundColor: 'black'}}>
-        <h3>Let’s bring your vision to life. Contact us for a free estimate.</h3>
+      <div style={{ textAlign: 'center', backgroundColor: 'black', padding: '1rem' }}>
+        <h3>
+          <p style={{ display: 'inline', fontSize: 'clamp(12px, 2vw, 1.5rem' }}>Turn your vision into reality — it begins with a free estimate. </p>
+          <a href='/contact' style={{ display: 'inline', whiteSpace: 'nowrap', fontSize: 'clamp(2rem, 4vw, 3rem)', fontStyle: 'italic', fontWeight: 'bolder'}}>Contact us →</a>
+        </h3>
       </div>
     </div>
   )

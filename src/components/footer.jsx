@@ -12,8 +12,8 @@ export default function Footer() {
         <div style={{display: 'flex', flexDirection: 'row', textAlign: 'center', height: 'clamp(180px, 28vw, 600px)', width: '100%', alignItems: 'center'}}>
             <img src='src/assets/logo.svg' style={{height: '100%', width: '100%', objectFit: 'contain'}}/>
         </div>
-        <div>
-          2025 G.E. Painters & LoneStarDev. All Rights Reserved.
+        <div style={{fontSize: 'clamp(12px, 1vw, 1rem)'}}>
+          2025 G.E. Painters & <a href='https://lonestardev.net' style={{display: 'inline'}}>LoneStarDev.</a> All Rights Reserved.
         </div>
 </div>
   )
