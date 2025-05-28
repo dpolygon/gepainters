@@ -17,14 +17,14 @@ function App() {
   const google_api_key = 'AIzaSyAfBQOwVbqM7dFMmvurj2PaZIfP0JTAj2o';
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column'}}>
+    <div style={{ display: 'flex', flexDirection: 'column' }}>
       <div className='homesplash'>
         <video loop autoPlay muted playsInline className='homepage-broll'>
           <source src='src/assets/May Hero on Vimeo.mp4' type='video/mp4' />
         </video>
-        <div style={{ margin: '2.75rem 0 0 2rem',  display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+        <div style={{ margin: '2.75rem 0 0 2rem', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
           <img className='splash-logo' style={{ height: '60px', width: '60px', marginRight: '10px' }} src='src/assets/logo.svg'></img>
-          <h1 className='splash-logo' style={{fontSize: 'clamp(2rem, 9vw, 3rem)'}}>G.E. Painters</h1>
+          <h1 className='splash-logo' style={{ fontSize: 'clamp(2rem, 9vw, 3rem)' }}>G.E. Painters</h1>
         </div>
         <div style={{ padding: '2rem' }}>
           <h2 style={{ fontSize: '4rem', paddingBottom: '1rem', borderBottomStyle: 'solid', borderBottomWidth: '1px', marginBottom: '1rem' }}>Painting that brings out the best in every space</h2>
@@ -59,8 +59,6 @@ function App() {
             <p style={{ color: 'black', display: 'inline' }}> Let’s bring your <p className='gradient-text'>vision</p> to life—with quality you can count on.</p></h2>
         </div>
       </div>
-      <div style={{ backgroundColor: 'rgb(240, 240, 240)' }}>
-      </div>
       <div className='areas-served'>
         <div style={{ width: '74vw', marginBottom: '4rem' }}>
           <h2 style={{ color: 'dimgrey' }}>With <p className='gradient-text'>over 25 years of experience,</p> we’ve proudly delivered high-quality residential and commercial painting services throughout Austin and the surrounding Central Texas area.</h2>
@@ -68,15 +66,18 @@ function App() {
         </div>
         <div className='areas-wrapper'>
           <div className='marquee-area'>
-            <div style={{padding: '2rem'}}>
+            <div style={{ padding: '2rem' }}>
               <h2 style={{ fontSize: '1.1rem', marginBottom: '1rem' }}>Our work shines in Austin and its surrounding areas.</h2>
               <LocationsMarquee />
             </div>
           </div>
-          <div style={{backgroundImage: 'url(src/assets/austin.jpg)', backgroundPosition: 'center', backgroundSize: 'cover', borderRadius: '32px', overflow: 'hidden', height: '70vh'}}>
-            <h2 className='austintext' style={{ padding: '2rem', textShadow: '0 0 10px dimgrey', backgroundColor: 'rgb(0, 0, 0, .33)', borderRadius: '32px', height: '100%'}}>We understand that each neighborhood has its own personality and history, and we take pride in tailoring every project to complement its unique character. Whether it’s refreshing a family home or painting a commercial space, we bring attention to detail and a commitment to quality every time.</h2>
+          <div style={{ backgroundImage: 'url(src/assets/austin.jpg)', backgroundPosition: 'center', backgroundSize: 'cover', borderRadius: '32px', overflow: 'hidden', height: '70vh' }}>
+            <h2 className='austintext' style={{ padding: '2rem', textShadow: '0 0 10px dimgrey', backgroundColor: 'rgb(0, 0, 0, .33)', borderRadius: '32px', height: '100%' }}>We understand that each neighborhood has its own personality and history, and we take pride in tailoring every project to complement its unique character. Whether it’s refreshing a family home or painting a commercial space, we bring attention to detail and a commitment to quality every time.</h2>
           </div>
         </div>
+      </div>
+      <div style={{textAlign: 'center', backgroundColor: 'black'}}>
+        <h3>Let’s bring your vision to life. Contact us for a free estimate.</h3>
       </div>
     </div>
   )

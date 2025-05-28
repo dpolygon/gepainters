@@ -41,20 +41,20 @@ export default function Navbar() {
           </div>
         </div>
         <div className='menu-selection'>
-          <NavLink className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 0}} to='/'>
+          <NavLink onClick={handleClick} className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 0, textDecoration: 'none'}} to='/'>
             Home
           </NavLink>
-          <NavLink className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 1}} to='residential'>
+          <NavLink onClick={handleClick} className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 1, textDecoration: 'none'}} to='residential'>
             Residential
           </NavLink>
-          <NavLink className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 2}} to='commercial'>
+          <NavLink onClick={handleClick} className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 2 , textDecoration: 'none'}} to='commercial'>
             Commercial
           </NavLink>
-          <NavLink className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 3}} to='contact'>
+          <NavLink onClick={handleClick} className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 3, textDecoration: 'none'}} to='contact'>
             Contact
           </NavLink>
-          <NavLink className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 4}} to='about'>
-            AboutUs
+          <NavLink onClick={handleClick} className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 4, textDecoration: 'none'}} to='about'>
+            About Us
           </NavLink>
         </div>
         <div className='navbar-items'>
