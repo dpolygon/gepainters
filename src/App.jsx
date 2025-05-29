@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { APIProvider, Map, Marker } from '@vis.gl/react-google-maps';
+import { useEffect } from 'react'
+import { GradientAnimation } from './utils/gradientanimation.jsx'
 import { BiSolidHomeHeart } from "react-icons/bi";
 import { GoNorthStar } from "react-icons/go";
 import { MdAddBusiness } from "react-icons/md";
@@ -13,80 +13,11 @@ import LocationsMarquee from './components/locationsmarquee';
 
 function App() {
 
-const gradients = Array.from({ length: 7 }, (_, i) => ({
-  xVar: `--p${i + 1}x`,
-  yVar: `--p${i + 1}y`,
-  currentX: Math.random() * 100,
-  currentY: Math.random() * 100,
-  targetX: Math.random() * 100,
-  targetY: Math.random() * 100
-}));
+  useEffect(() => {
+    const cleanup = GradientAnimation();
+    return cleanup; // stop interval on unmount
+  }, []);
 
-function setVars() {
-  gradients.forEach(g => {
-    document.body.style.setProperty(g.xVar, g.currentX + '%');
-    document.body.style.setProperty(g.yVar, g.currentY + '%');
-  });
-}
-
-function rand(min, max) {
-  return min + Math.random() * (max - min);
-}
-
-function updateTargets() {
-  gradients.forEach((g, i) => {
-    switch (i) {
-      case 0:
-        g.targetX = rand(0, 33);
-        g.targetY = rand(66, 100);
-        break;
-      case 1:
-        g.targetX = rand(33, 66);
-        g.targetY = rand(0, 50);
-        break;
-      case 2:
-        g.targetX = rand(0, 20);
-        g.targetY = rand(30, 70);
-        break;
-      case 3:
-        g.targetX = rand(0, 25);
-        g.targetY = rand(80, 100);
-        break;
-      case 4:
-        g.targetX = rand(40, 60);
-        g.targetY = rand(50, 80);
-        break;
-      case 5:
-        g.targetX = rand(60, 90);
-        g.targetY = rand(70, 100);
-        break;
-      case 6:
-        g.targetX = rand(0, 10);
-        g.targetY = rand(0, 10);
-        break;
-    }
-  });
-}
-
-function lerp(a, b, t) {
-  return a + (b - a) * t;
-}
-
-function animate() {
-  gradients.forEach(g => {
-    g.currentX = lerp(g.currentX, g.targetX, 0.02); // smoother with small t
-    g.currentY = lerp(g.currentY, g.targetY, 0.02);
-  });
-
-  setVars();
-  requestAnimationFrame(animate);
-}
-
-// Change targets every 5 seconds
-setInterval(updateTargets, 2000);
-
-setVars();
-animate();
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column' }}>
