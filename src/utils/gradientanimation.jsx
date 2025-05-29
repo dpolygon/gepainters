@@ -6,11 +6,10 @@
 
 export function GradientAnimation() {
 
-
-    const NUM_POINTS = 5;
+    const gradients_count = 5;
     const SPEED = 0.01;
 
-    const gradients = Array.from({ length: NUM_POINTS }, (_, i) => ({
+    const gradients = Array.from({ length: gradients_count }, (_, i) => ({
         xVar: `--p${i + 1}x`,
         yVar: `--p${i + 1}y`,
         currentX: Math.random() * 100,
@@ -26,8 +25,8 @@ export function GradientAnimation() {
         });
     }
 
-    const rand = (min, max) => min + Math.random() * (max - min);
     function updateTargets() {
+        const rand = (min, max) => min + Math.random() * (max - min);
         const ranges = [
             [0, 33, 66, 100],
             [33, 66, 0, 50],
@@ -43,8 +42,8 @@ export function GradientAnimation() {
         });
     }
 
-    const lerp = (a, b, t) => a + (b - a) * t;
     function animate() {
+        const lerp = (a, b, t) => a + (b - a) * t;
         gradients.forEach(g => {
             g.currentX = lerp(g.currentX, g.targetX, SPEED);
             g.currentY = lerp(g.currentY, g.targetY, SPEED);

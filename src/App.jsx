@@ -35,7 +35,7 @@ function App() {
         </div>
       </div>
       <div className='services-summary'>
-        <h1 style={{ margin: '6rem 0 4rem 2rem', fontSize: '5rem' }}>Your Vision. Our <p style={{ display: 'inline' }} className='gradient-text'>Craft.</p></h1>
+        <h1 style={{ margin: '4rem 2rem 4rem 2rem', fontSize: 'clamp(4rem, 14vw, 6rem)'}}>Your Vision. <p style={{whiteSpace: 'nowrap', display: 'inline'}}>Our <p style={{ display: 'inline' }} className='gradient-text'>Craft.</p></p></h1>
         <div className='services'>
           <ServiceCell src='src/assets/residential.jpg' title='Residential' icon={BiSolidHomeHeart} subtitle='Make your house feel like home inside and out' desc='From modern makeovers to careful restorations, we specialize in custom interior and exterior painting, trim work, and surface repairs that stand the test of time.' />
           <ServiceCell src='src/assets/commercial.jpg' title='Commercial' icon={MdAddBusiness} subtitle='We help Austin’s businesses look their best' desc='Whether it’s a fresh coat for a retail space, durable finishes for apartments, or precision striping in a parking lot.' />
@@ -53,7 +53,7 @@ function App() {
       </div>
       <div className='partners-area'>
         <div style={{ width: '74vw' }}>
-          <h1 style={{ color: 'black', fontSize: '3rem', textAlign: 'center' }}>We’ve proudly provided professional painting—and a range of finishing services—to some of the most respected names in Austin homebuilding and design.</h1>
+          <h1 style={{ color: 'black', fontSize: 'clamp(2rem, 8vw, 3rem)', textAlign: 'center' }}>We’ve proudly provided professional painting—and a range of finishing services—to some of the most respected names in Austin homebuilding and design.</h1>
           <div style={{ margin: '4rem 1rem 4rem 1rem' }}>
             <Partnerslist />
           </div>
@@ -63,7 +63,7 @@ function App() {
         </div>
       </div>
       <div className='areas-served'>
-        <h1 style={{ color: 'black', fontSize: '3.5rem', width: '74vw', padding: '0 2rem 0 2rem' }}>Trusted Painting Experts in Central Texas</h1>
+        <h1 style={{ color: 'black', fontSize: 'clamp(2rem, 8vw, 3rem)', width: '74vw', padding: '0 2rem 0 2rem' }}>Trusted Painting Experts in Central Texas</h1>
         <div style={{ width: '74vw', margin: '4rem 0rem 4rem 0rem' }}>
           <h2 style={{ color: 'dimgrey' }}>With <p className='gradient-text'>over 25 years of experience,</p> we’ve proudly delivered high-quality residential and commercial painting services throughout Austin and the surrounding Central Texas area.</h2>
         </div>
