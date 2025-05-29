@@ -192,15 +192,15 @@
 }
 
 .marquee-area {
-  background-color: hsla(0, 100%, 50%, 1);
+  background-color: hsla(210, 100%, 50%, 1);
   background-image:
-    radial-gradient(at 61% 0%, hsla(353, 100%, 74%, 1) 0px, transparent 50%),
-    radial-gradient(at 26% 44%, hsla(154, 100%, 56%, 1) 0px, transparent 50%),
-    radial-gradient(at 44% 68%, hsla(320, 100%, 93%, 1) 0px, transparent 50%),
-    radial-gradient(at 80% 40%, hsla(305, 100%, 76%, 1) 0px, transparent 50%),
-    radial-gradient(at 17% 82%, hsla(347, 100%, 77%, 1) 0px, transparent 50%),
-    radial-gradient(at 77% 86%, hsla(207, 100%, 70%, 1) 0px, transparent 50%),
-    radial-gradient(at 0% 0%, hsla(308, 100%, 76%, 1) 0px, transparent 50%);
+    radial-gradient(at var(--p1x) var(--p1y), hsla(28, 100%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at var(--p2x) var(--p2y), hsla(189, 100%, 56%, 1) 0px, transparent 50%),
+    radial-gradient(at var(--p3x) var(--p3y), hsla(355, 100%, 93%, 1) 0px, transparent 50%),
+    radial-gradient(at var(--p4x) var(--p4y), hsla(340, 100%, 76%, 1) 0px, transparent 50%),
+    radial-gradient(at var(--p5x) var(--p5y), hsla(22, 100%, 77%, 1) 0px, transparent 50%),
+    radial-gradient(at var(--p6x) var(--p6y), hsla(242, 100%, 70%, 1) 0px, transparent 50%),
+    radial-gradient(at var(--p7x) var(--p7y), hsla(343, 100%, 76%, 1) 0px, transparent 50%);
   border-radius: 32px;
   width: 100%;
   height: 70vh;
@@ -216,4 +216,3 @@
     display: none;
   }
 }
-

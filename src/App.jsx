@@ -12,9 +12,81 @@ import Partnerslist from './components/partnerslist';
 import LocationsMarquee from './components/locationsmarquee';
 
 function App() {
-  const [count, setCount] = useState(0)
-  const position = { lat: 30.2672, lng: -97.7421 };
-  const google_api_key = 'AIzaSyAfBQOwVbqM7dFMmvurj2PaZIfP0JTAj2o';
+
+const gradients = Array.from({ length: 7 }, (_, i) => ({
+  xVar: `--p${i + 1}x`,
+  yVar: `--p${i + 1}y`,
+  currentX: Math.random() * 100,
+  currentY: Math.random() * 100,
+  targetX: Math.random() * 100,
+  targetY: Math.random() * 100
+}));
+
+function setVars() {
+  gradients.forEach(g => {
+    document.body.style.setProperty(g.xVar, g.currentX + '%');
+    document.body.style.setProperty(g.yVar, g.currentY + '%');
+  });
+}
+
+function rand(min, max) {
+  return min + Math.random() * (max - min);
+}
+
+function updateTargets() {
+  gradients.forEach((g, i) => {
+    switch (i) {
+      case 0:
+        g.targetX = rand(0, 33);
+        g.targetY = rand(66, 100);
+        break;
+      case 1:
+        g.targetX = rand(33, 66);
+        g.targetY = rand(0, 50);
+        break;
+      case 2:
+        g.targetX = rand(0, 20);
+        g.targetY = rand(30, 70);
+        break;
+      case 3:
+        g.targetX = rand(0, 25);
+        g.targetY = rand(80, 100);
+        break;
+      case 4:
+        g.targetX = rand(40, 60);
+        g.targetY = rand(50, 80);
+        break;
+      case 5:
+        g.targetX = rand(60, 90);
+        g.targetY = rand(70, 100);
+        break;
+      case 6:
+        g.targetX = rand(0, 10);
+        g.targetY = rand(0, 10);
+        break;
+    }
+  });
+}
+
+function lerp(a, b, t) {
+  return a + (b - a) * t;
+}
+
+function animate() {
+  gradients.forEach(g => {
+    g.currentX = lerp(g.currentX, g.targetX, 0.02); // smoother with small t
+    g.currentY = lerp(g.currentY, g.targetY, 0.02);
+  });
+
+  setVars();
+  requestAnimationFrame(animate);
+}
+
+// Change targets every 5 seconds
+setInterval(updateTargets, 2000);
+
+setVars();
+animate();
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -60,7 +132,7 @@ function App() {
         </div>
       </div>
       <div className='areas-served'>
-        <h1 style={{color: 'black', fontSize: '3.5rem', width: '74vw', padding: '0 2rem 0 2rem'}}>Trusted Painting Experts in Central Texas</h1>
+        <h1 style={{ color: 'black', fontSize: '3.5rem', width: '74vw', padding: '0 2rem 0 2rem' }}>Trusted Painting Experts in Central Texas</h1>
         <div style={{ width: '74vw', margin: '4rem 0rem 4rem 0rem' }}>
           <h2 style={{ color: 'dimgrey' }}>With <p className='gradient-text'>over 25 years of experience,</p> we’ve proudly delivered high-quality residential and commercial painting services throughout Austin and the surrounding Central Texas area.</h2>
         </div>
@@ -79,7 +151,7 @@ function App() {
       <div style={{ textAlign: 'center', backgroundColor: 'black', padding: '1rem' }}>
         <h3>
           <p style={{ display: 'inline', fontSize: 'clamp(12px, 2vw, 1.5rem' }}>Turn your vision into reality — it begins with a free estimate. </p>
-          <a href='/contact' style={{ display: 'inline', whiteSpace: 'nowrap', fontSize: 'clamp(2rem, 4vw, 3rem)', fontStyle: 'italic', fontWeight: 'bolder'}}>Contact us →</a>
+          <a href='/contact' style={{ display: 'inline', whiteSpace: 'nowrap', fontSize: 'clamp(2rem, 4vw, 3rem)', fontStyle: 'italic', fontWeight: 'bolder' }}>Contact us →</a>
         </h3>
       </div>
     </div>
