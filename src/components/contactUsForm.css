@@ -1,0 +1,32 @@
+.contactUsPreferenceButton {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 35px;
+    border: none;
+}
+
+.ContactUsInput {
+    border: none;
+    border-radius: 32px;
+}
+
+.ContactUsSendButton {
+    background: black;
+    color: white;
+}
+
+.ContactUsSendButton:hover {
+    background: white;
+    color: black
+}
+
+.ContactUsForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
