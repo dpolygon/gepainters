@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 import './contactUsForm.css'
+
 // import { config } from '../../Constants'
 
 export default function ContactUsForm() {
@@ -70,7 +71,9 @@ export default function ContactUsForm() {
 
     return (
         <div className='ContactUsForm'>
-            <div style={{ display: 'flex', flexDirection: 'column', paddingBottom: '1rem', justifyContent: 'left' }}>
+            {
+                // uncomment if you
+            /* <div style={{ display: 'flex', flexDirection: 'column', paddingBottom: '1rem', justifyContent: 'left' }}>
                 <h2>Communication Preference:</h2>
                 <div>
                     <button className='contactUsPreferenceButton' onClick={() => setActiveButton('text')} style={{ backgroundColor: activeButton === "text" ? "lightgrey" : "black", border: '1px white solid' }}>
@@ -80,11 +83,11 @@ export default function ContactUsForm() {
                         Email
                     </button>
                 </div>
-            </div>
-            <form style={{ display: 'flex', flexDirection: 'column' }}>
-                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '100%'}}>
+            </div> */}
+            <form style={{ display: 'flex', flexDirection: 'column'}}>
+                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around', gap: '1rem'}}>
                     <input required
-                        style={{padding: '2rem', width: '90%'}}
+                        style={{padding: '2rem', width: '100%'}}
                         className='ContactUsInput'
                         value={text.name}
                         onChange={handleStateChange}
@@ -92,7 +95,7 @@ export default function ContactUsForm() {
                         placeholder="Name"
                     />
                     <input required
-                        style={{padding: '2rem', width: '40%'}}
+                        style={{padding: '2rem', width: '100%'}}
                         className='ContactUsInput'
                         value={text.contactInfo}
                         onChange={handleStateChange}
@@ -103,8 +106,9 @@ export default function ContactUsForm() {
                 <textarea required
                     style={{
                         resize: 'none',
-                        padding: '3rem',
-                        marginTop: '1rem'
+                        padding: '2rem 2rem 3rem 2rem',
+                        marginTop: '1rem',
+                        color: 'black'
                     }}
                     className='ContactUsInput'
                     value={text.message}
@@ -113,7 +117,7 @@ export default function ContactUsForm() {
                     placeholder='ask us anything!'
                     maxLength="4000"
                 />
-                <button style={{ height: '80px', fontSize: '15px', border: '1px solid white' }} className='ContactUsSendButton' disabled={isLoading}>
+                <button style={{ height: '80px', margin: '1rem 0rem 0rem 0rem', fontSize: '15px', border: '1px solid white' }} className='ContactUsSendButton' disabled={isLoading}>
                     {isLoading ? 'Sending...' : 'Send'}
                 </button>
             </form>

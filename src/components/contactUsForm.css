@@ -1,3 +1,10 @@
+.mesh-gradient {
+    background-image:
+radial-gradient(at var(--p1x) var(--p1y), rgb(187, 189, 248) 0px, transparent 50%),
+radial-gradient(at var(--p2x) var(--p2y), rgb(177, 116, 116) 0px, transparent 50%),
+radial-gradient(at var(--p3x) var(--p3y), rgb(87, 126, 97) 0px, transparent 50%);
+}
+
 .contactUsPreferenceButton {
     display: inline-block;
     text-align: center;
@@ -7,21 +14,25 @@
 
 .ContactUsInput {
     border: none;
-    border-radius: 32px;
+    border-radius: 48px;
+    background-color: rgb(225, 225, 225);
+    color: black;
+    font-size: 1rem;
 }
 
 .ContactUsSendButton {
+    border-radius: 32px;
     background: black;
     color: white;
 }
 
 .ContactUsSendButton:hover {
-    background: white;
-    color: black
+    background: #C7C7CC;
+    color: black;
+    border: none;
 }
 
 .ContactUsForm {
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
