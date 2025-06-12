@@ -98,6 +98,7 @@
       hsl(344deg 0% 90%) 77%,
       hsl(0deg 0% 94%) 100%);
   z-index: -4;
+  padding-top: 6rem;
 }
 
 .services {
@@ -110,7 +111,7 @@
   height: 100%;
 }
 
-.choose-gepainters {
+.choose-gepainter {
   height: 110vh;
   display: flex;
   flex-direction: column;
@@ -130,7 +131,7 @@
   text-shadow: none;
 }
 
-.gepainters-minigallery {
+.gepainter-minigallery {
   display: flex;
   flex-direction: column;
   justify-content: center;

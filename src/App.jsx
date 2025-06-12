@@ -27,7 +27,7 @@ function App() {
         </video>
         <div style={{ margin: '2.75rem 0 0 2rem', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
           <img className='splash-logo' style={{ height: '60px', width: '60px', marginRight: '10px' }} src='src/assets/logo.svg'></img>
-          <h1 className='splash-logo' style={{ fontSize: 'clamp(2rem, 9vw, 3rem)' }}>G.E. Painters</h1>
+          <h1 className='splash-logo' style={{ fontSize: 'clamp(2rem, 9vw, 3rem)' }}>G.E. Painter</h1>
         </div>
         <div style={{ padding: '2rem' }}>
           <h2 style={{ fontSize: '4rem', paddingBottom: '1rem', borderBottomStyle: 'solid', borderBottomWidth: '1px', marginBottom: '1rem' }}>Painting that brings out the best in every space</h2>
@@ -39,16 +39,17 @@ function App() {
         <div className='services'>
           <ServiceCell src='src/assets/residential.jpg' title='Residential' icon={BiSolidHomeHeart} subtitle='Make your house feel like home inside and out' desc='From modern makeovers to careful restorations, we specialize in custom interior and exterior painting, trim work, and surface repairs that stand the test of time.' />
           <ServiceCell src='src/assets/commercial.jpg' title='Commercial' icon={MdAddBusiness} subtitle='We help Austin’s businesses look their best' desc='Whether it’s a fresh coat for a retail space, durable finishes for apartments, or precision striping in a parking lot.' />
-          <ServiceCell src='src/assets/other.jpg' title='Specialty Surfaces & Finishes' icon={GoNorthStar} subtitle='More than just paint' desc='From epoxy floors to cabinet refinishing, our team delivers expert finishes on a wide range of surfaces — brick, stucco, siding, metal doors, and more.' />
+          <ServiceCell src='src/assets/other.jpg' title='Detail Work & Specialty Services' icon={GoNorthStar} subtitle='More than just paint' desc='From epoxy floors to popcorn ceiling removal, we take care of the finishing details — including cabinet refinishing, pressure washing, and expert coatings on brick, siding, and more.
+' />
         </div>
       </div>
-      <div className='choose-gepainters'>
+      <div className='choose-gepainter'>
         <div>
           <h1 style={{ color: 'black', fontSize: '5rem' }}>Why<br></br> Settle? <br></br><br></br> Choose</h1>
-          <h1 className='gradient-text' style={{ fontSize: '5rem' }}>G.E. Painters</h1>
+          <h1 className='gradient-text' style={{ fontSize: '5rem' }}>G.E. Painter</h1>
         </div>
       </div>
-      <div className='gepainters-minigallery'>
+      <div className='gepainter-minigallery'>
         <Carrossel />
       </div>
       <div className='partners-area'>
@@ -57,7 +58,7 @@ function App() {
           <div style={{ margin: '4rem 1rem 4rem 1rem' }}>
             <Partnerslist />
           </div>
-          <h2 style={{ color: 'dimgrey' }}>At GE Painters, we use only high-quality, professional-grade paint products—or client-specified brands upon request—to ensure long-lasting, beautiful results. We’ve brought that same standard of craftsmanship and attention to detail to projects for some of Austin’s most respected builders.
+          <h2 style={{ color: 'dimgrey' }}>At GE Painter, we use only high-quality, professional-grade paint products—or client-specified brands upon request—to ensure long-lasting, beautiful results. We’ve brought that same standard of craftsmanship and attention to detail to projects for some of Austin’s most respected builders.
             From custom homes to large-scale developments, we’ve consistently delivered reliable, top-tier results—always backed by <p style={{ color: 'black', display: 'inline' }}>our standard one-year labor warranty. </p>Whether you're a homeowner or a business, you can expect the same level of professionalism and care.
             <p style={{ color: 'black', display: 'inline' }}> Let’s bring your <p className='gradient-text'>vision</p> to life—with quality you can count on.</p></h2>
         </div>
@@ -74,7 +75,7 @@ function App() {
               <LocationsMarquee />
             </div>
           </div>
-          <div style={{ backgroundImage: 'url(src/assets/austin.jpg)', backgroundPosition: 'center', backgroundSize: 'cover', borderRadius: '32px', overflow: 'hidden', height: '70vh' }}>
+          <div style={{ backgroundImage: 'url(src/assets/austin.jpg)', backgroundPosition: 'center', backgroundSize: 'cover', borderRadius: '32px', overflow: 'hidden', height: '70vh', justifyContent: 'space-around'}}>
             <h2 className='austintext' style={{ padding: '2rem', textShadow: '0 0 10px dimgrey', backgroundColor: 'rgb(0, 0, 0, .33)', borderRadius: '32px', height: '100%' }}>We understand that each neighborhood has its own personality and history, and we take pride in tailoring every project to complement its unique character. Whether it’s refreshing a family home or painting a commercial space, we bring attention to detail and a commitment to quality every time.</h2>
           </div>
         </div>

@@ -1,10 +1,8 @@
 import React, { act, useState } from 'react'
+import './navbar.css'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { HiBars2 } from "react-icons/hi2";
 import { IoMdClose } from "react-icons/io";
-
-
-import './navbar.css'
 
 export default function Navbar() {
 
@@ -60,7 +58,7 @@ export default function Navbar() {
         <div className='navbar-items'>
           <NavLink style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }} to='/'>
             <img src='src/assets/logo.svg' style={{ height: '30px', width: '30px' }}></img>
-            <p style={{ whiteSpace: 'nowrap'}}>GE Painters</p>
+            <p style={{ whiteSpace: 'nowrap'}}>GE Painter</p>
           </NavLink>
         </div>
         <NavLink className='navbar-items' to='residential'>

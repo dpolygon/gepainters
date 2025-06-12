@@ -84,7 +84,7 @@ export default function ContactUsForm() {
                     </button>
                 </div>
             </div> */}
-            <form style={{ display: 'flex', flexDirection: 'column'}}>
+            <form style={{ display: 'flex', flexDirection: 'column', gap: '1rem'}}>
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around', gap: '1rem'}}>
                     <input required
                         style={{padding: '2rem', width: '100%'}}
@@ -103,21 +103,23 @@ export default function ContactUsForm() {
                         placeholder={activeButton === "text" ? "Mobile Number" : "E-mail"}
                     />
                 </div>
+                <input required
+                    className='ContactUsInput'
+                    placeholder='Workplace Address'
+                    />
                 <textarea required
                     style={{
                         resize: 'none',
                         padding: '2rem 2rem 3rem 2rem',
-                        marginTop: '1rem',
-                        color: 'black'
                     }}
                     className='ContactUsInput'
                     value={text.message}
                     onChange={handleStateChange}
                     name='message'
-                    placeholder='ask us anything!'
+                    placeholder='Ask us anything or give us a brief description of your project 🏠🏬'
                     maxLength="4000"
                 />
-                <button style={{ height: '80px', margin: '1rem 0rem 0rem 0rem', fontSize: '15px', border: '1px solid white' }} className='ContactUsSendButton' disabled={isLoading}>
+                <button style={{ height: '80px', fontSize: '15px', border: 'none' }} className='ContactUsSendButton' disabled={isLoading}>
                     {isLoading ? 'Sending...' : 'Send'}
                 </button>
             </form>
