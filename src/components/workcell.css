@@ -1,0 +1,9 @@
+.job-cell {
+    height: 50vh;
+    min-width: 20rem;
+    padding: 2rem;
+    background-color: black;
+    border-radius: 64px;
+    background-position: center;
+    background-size: cover;
+}

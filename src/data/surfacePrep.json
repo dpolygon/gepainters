@@ -1,0 +1,44 @@
+[
+  {
+    "id": 8,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Smooth Base",
+    "title": "Drywall repair and patching"
+  },
+  {
+    "id": 9,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Structural Care",
+    "title": "Wood rot repair and replacement"
+  },
+  {
+    "id": 10,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Clean Slate",
+    "title": "Wallpaper removal"
+  },
+  {
+    "id": 11,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Modern Upgrade",
+    "title": "Popcorn ceiling removal"
+  },
+  {
+    "id": 12,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Seamless Finish",
+    "title": "Texture matching and ceiling/wall resurfacing"
+  },
+  {
+    "id": 13,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Protective Seal",
+    "title": "Caulking and sealing gaps"
+  },
+  {
+    "id": 14,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Deep Clean",
+    "title": "Pressure washing for siding, driveways, patios, and more"
+  }
+]

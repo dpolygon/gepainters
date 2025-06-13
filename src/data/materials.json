@@ -1,0 +1,62 @@
+[
+  {
+    "id": 28,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Natural Look",
+    "title": "Wood siding"
+  },
+  {
+    "id": 29,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Rustic Appeal",
+    "title": "Cedar shingles"
+  },
+  {
+    "id": 30,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Low-Maintenance",
+    "title": "Vinyl siding"
+  },
+  {
+    "id": 31,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Timeless Texture",
+    "title": "Brick"
+  },
+  {
+    "id": 32,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Smooth Exterior",
+    "title": "Stucco"
+  },
+  {
+    "id": 33,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Modern Style",
+    "title": "Aluminum siding"
+  },
+  {
+    "id": 34,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Durable Blend",
+    "title": "Composite siding"
+  },
+  {
+    "id": 35,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Secure Entry",
+    "title": "Metal doors"
+  },
+  {
+    "id": 36,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Defined Boundaries",
+    "title": "Fences"
+  },
+  {
+    "id": 37,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Detailed Finish",
+    "title": "Windows (trim and sills)"
+  }
+]

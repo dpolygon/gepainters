@@ -1,0 +1,49 @@
+.work-carrossel {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scrollbar-color: transparent;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    gap: 3rem;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.carousel-button-wrapper {
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem 0 0 3rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .carousel-button-wrapper {
+        padding: 1rem 0 0 2rem
+    }
+
+    .work-carrossel {
+        gap: 1rem
+    }
+}
+
+.work-carrossel-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 40%;
+    background-color: rgb(230, 230, 230);
+    color: gray;
+    font-weight: 800;
+    border: none;
+    transition: all .5s ease;
+}
+
+.work-carrossel-buttons:hover {
+    height: 3.9rem;
+    width: 3.9rem;
+    border: solid 1px rgb(209, 209, 209)
+}

@@ -1,0 +1,34 @@
+.residential-work-carrossel {
+    padding: 3rem 0rem 6rem 0rem
+}
+
+.residential-main-title {
+    padding-left: 4rem;
+    font-size: clamp(4rem, 8vw, 5rem);
+    color: black;
+}
+
+.residential-title {
+    color: black;
+    padding-left: 5rem;
+}
+
+.residential-subtitle {
+    color: rgb(77, 77, 77);
+    padding: 1rem 0 0 6rem;
+    width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    .residential-work-carrossel {
+        padding: 2rem 0rem 2rem 0rem
+    }
+
+    .residential-title {
+        padding-left: 2rem;
+    }
+
+    .residential-subtitle {
+        padding: 1rem 0 0 2rem;
+    }
+}

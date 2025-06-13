@@ -1,0 +1,26 @@
+[
+  {
+    "id": 24,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Dual Units",
+    "title": "Duplexes"
+  },
+  {
+    "id": 25,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Multi-Unit",
+    "title": "Fourplexes"
+  },
+  {
+    "id": 26,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Complex Care",
+    "title": "Apartments and multi-unit homes"
+  },
+  {
+    "id": 27,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Quick Refresh",
+    "title": "Rental turnover painting"
+  }
+]
