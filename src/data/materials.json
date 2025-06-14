@@ -1,62 +1,86 @@
 [
   {
-    "id": 28,
+    "id": 1,
     "imageUrl": "src/assets/samplework/samp1.jpg",
     "descriptor": "Natural Look",
     "title": "Wood siding"
   },
   {
-    "id": 29,
+    "id": 2,
     "imageUrl": "src/assets/samplework/samp1.jpg",
     "descriptor": "Rustic Appeal",
     "title": "Cedar shingles"
   },
   {
-    "id": 30,
+    "id": 3,
     "imageUrl": "src/assets/samplework/samp1.jpg",
     "descriptor": "Low-Maintenance",
     "title": "Vinyl siding"
   },
   {
-    "id": 31,
+    "id": 4,
     "imageUrl": "src/assets/samplework/samp1.jpg",
     "descriptor": "Timeless Texture",
     "title": "Brick"
   },
   {
-    "id": 32,
+    "id": 5,
     "imageUrl": "src/assets/samplework/samp1.jpg",
     "descriptor": "Smooth Exterior",
     "title": "Stucco"
   },
   {
-    "id": 33,
+    "id": 6,
     "imageUrl": "src/assets/samplework/samp1.jpg",
     "descriptor": "Modern Style",
     "title": "Aluminum siding"
   },
   {
-    "id": 34,
+    "id": 7,
     "imageUrl": "src/assets/samplework/samp1.jpg",
     "descriptor": "Durable Blend",
     "title": "Composite siding"
   },
   {
-    "id": 35,
+    "id": 8,
     "imageUrl": "src/assets/samplework/samp1.jpg",
     "descriptor": "Secure Entry",
     "title": "Metal doors"
   },
   {
-    "id": 36,
+    "id": 9,
     "imageUrl": "src/assets/samplework/samp1.jpg",
     "descriptor": "Defined Boundaries",
     "title": "Fences"
   },
   {
-    "id": 37,
+    "id": 10,
     "imageUrl": "src/assets/samplework/samp1.jpg",
     "descriptor": "Detailed Finish",
-    "title": "Windows (trim and sills)"
+    "title": "Windows"
+  },
+  {
+    "id": 11,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Refined Surface",
+    "title": "Garage doors"
+  },
+  {
+    "id": 12,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Natural Texture",
+    "title": "Stone veneer"
+  },
+  {
+    "id": 13,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Moisture Resistant",
+    "title": "Cement board siding"
+  },
+  {
+    "id": 14,
+    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "descriptor": "Clean Appearance",
+    "title": "Soffits and Fascia"
   }
 ]

@@ -115,7 +115,7 @@
   height: 110vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
@@ -140,6 +140,16 @@
   margin-bottom: 10rem;
 }
 
+.carrossel-home {
+  width: 85vw;
+}
+
+@media screen and (max-width: 600px) {
+  .carrossel-home {
+    width: 90vw;
+  }
+}
+
 .partners-area {
   display: flex;
   flex-direction: column;
@@ -152,8 +162,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: auto;
-  padding: 0rem 0 5rem 0;
+  padding: 0 0 5rem 0;
   background-image: linear-gradient(180deg,
       hsl(0deg 0% 94%) 0%,
       hsl(344deg 0% 90%) 4%,

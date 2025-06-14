@@ -29,38 +29,45 @@ export default function Navbar() {
 
     <nav className='navbar'>
       <div className={active === false ? 'navbar-content' : 'navbar-content active'}>
-        <div className='menu-items' style={{width: '100%'}}>
-          <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', padding: '0 2rem 0 2rem'}}>
-            <h2>{pageTitle}</h2>
-            <img src='src/assets/logo.svg'style={{position: 'absolute', left: '50%', transform: 'translateX(-50%)', height: '80px', width: '80px' }}></img>
+        <div className='menu-items' style={{ width: '100%' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', padding: '0 2rem 0 2rem' }}>
+            <h2 style={{cursor: 'default'}}>{pageTitle}</h2>
+            <img onClick={() => window.location.href = '/'}
+              src='src/assets/logo.svg'
+              style={{
+                position: 'absolute',
+                left: '50%',
+                transform: 'translateX(-50%)',
+                height: '80px',
+                width: '80px',
+                cursor: 'pointer'
+              }}
+            />
             <div onClick={handleClick}>
-              {active === false ? <HiBars2 className='nav-buttons'/> : <IoMdClose className='nav-buttons'/>}
+              {active === false ? <HiBars2 className='nav-buttons' /> : <IoMdClose className='nav-buttons' />}
             </div>
           </div>
         </div>
         <div className='menu-selection'>
-          <NavLink onClick={handleClick} className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 0, textDecoration: 'none'}} to='/'>
+          <NavLink onClick={handleClick} className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 0, textDecoration: 'none' }} to='/'>
             Home
           </NavLink>
-          <NavLink onClick={handleClick} className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 1, textDecoration: 'none'}} to='residential'>
+          <NavLink onClick={handleClick} className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 1, textDecoration: 'none' }} to='residential'>
             Residential
           </NavLink>
-          <NavLink onClick={handleClick} className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 2 , textDecoration: 'none'}} to='commercial'>
+          <NavLink onClick={handleClick} className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 2, textDecoration: 'none' }} to='commercial'>
             Commercial
           </NavLink>
-          <NavLink onClick={handleClick} className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 3, textDecoration: 'none'}} to='contact'>
+          <NavLink onClick={handleClick} className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 3, textDecoration: 'none' }} to='contact'>
             Contact
           </NavLink>
-          <NavLink onClick={handleClick} className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 4, textDecoration: 'none'}} to='about'>
+          <NavLink onClick={handleClick} className={active === false ? 'temp' : 'menu-links'} style={{ '--i': 4, textDecoration: 'none' }} to='about'>
             About Us
           </NavLink>
         </div>
-        <div className='navbar-items'>
-          <NavLink style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }} to='/'>
-            <img src='src/assets/logo.svg' style={{ height: '30px', width: '30px' }}></img>
-            <p style={{ whiteSpace: 'nowrap'}}>GE Painter</p>
-          </NavLink>
-        </div>
+        <NavLink className='navbar-items' to=''>
+          Home
+        </NavLink>
         <NavLink className='navbar-items' to='residential'>
           Residential
         </NavLink>

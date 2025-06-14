@@ -20,7 +20,7 @@ function App() {
 
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column' }}>
+    <div>
       <div className='homesplash'>
         <video loop autoPlay muted playsInline className='homepage-broll'>
           <source src='src/assets/May Hero on Vimeo.mp4' type='video/mp4' />
@@ -35,22 +35,20 @@ function App() {
         </div>
       </div>
       <div className='services-summary'>
-        <h1 style={{ margin: '4rem 2rem 4rem 2rem', fontSize: 'clamp(4rem, 14vw, 6rem)'}}>Your Vision. <p style={{whiteSpace: 'nowrap', display: 'inline'}}>Our <p style={{ display: 'inline' }} className='gradient-text'>Craft.</p></p></h1>
+        <h1 style={{ margin: '4rem 2rem 4rem 2rem', fontSize: 'clamp(4rem, 14vw, 6rem)' }}>Your Vision. <p style={{ whiteSpace: 'nowrap', display: 'inline' }}>Our <p style={{ display: 'inline' }} className='gradient-text'>Craft.</p></p></h1>
         <div className='services'>
-          <ServiceCell src='src/assets/residential.jpg' title='Residential' icon={BiSolidHomeHeart} subtitle='Make your house feel like home inside and out' desc='From modern makeovers to careful restorations, we specialize in custom interior and exterior painting, trim work, and surface repairs that stand the test of time.' />
-          <ServiceCell src='src/assets/commercial.jpg' title='Commercial' icon={MdAddBusiness} subtitle='We help Austin’s businesses look their best' desc='Whether it’s a fresh coat for a retail space, durable finishes for apartments, or precision striping in a parking lot.' />
-          <ServiceCell src='src/assets/other.jpg' title='Detail Work & Specialty Services' icon={GoNorthStar} subtitle='More than just paint' desc='From epoxy floors to popcorn ceiling removal, we take care of the finishing details — including cabinet refinishing, pressure washing, and expert coatings on brick, siding, and more.
-' />
+          <ServiceCell src='src/assets/residential.jpg' link='/residential' title='Residential' icon={BiSolidHomeHeart} subtitle='Make your house feel like home inside and out' desc='From modern makeovers to careful restorations, we specialize in custom interior and exterior painting, trim work, and surface repairs that stand the test of time.' />
+          <ServiceCell src='src/assets/commercial.jpg' link='/commercial' title='Commercial' icon={MdAddBusiness} subtitle='We help Austin’s businesses look their best' desc='Whether it’s a fresh coat for a retail space, durable finishes for apartments, or precision striping in a parking lot.' />
         </div>
       </div>
       <div className='choose-gepainter'>
-        <div>
           <h1 style={{ color: 'black', fontSize: '5rem' }}>Why<br></br> Settle? <br></br><br></br> Choose</h1>
           <h1 className='gradient-text' style={{ fontSize: '5rem' }}>G.E. Painter</h1>
-        </div>
       </div>
       <div className='gepainter-minigallery'>
-        <Carrossel />
+        <div className='carrossel-home'>
+          <Carrossel />
+        </div>
       </div>
       <div className='partners-area'>
         <div style={{ width: '74vw' }}>
@@ -65,26 +63,22 @@ function App() {
       </div>
       <div className='areas-served'>
         <h1 style={{ color: 'black', fontSize: 'clamp(2rem, 8vw, 3rem)', width: '74vw', padding: '0 2rem 0 2rem' }}>Trusted Painting Experts in Central Texas</h1>
-        <div style={{ width: '74vw', margin: '4rem 0rem 4rem 0rem' }}>
-          <h2 style={{ color: 'dimgrey' }}>With <p className='gradient-text'>over 25 years of experience,</p> we’ve proudly delivered high-quality residential and commercial painting services throughout Austin and the surrounding Central Texas area.</h2>
-        </div>
+        <h2 style={{ color: 'dimgrey', width: '74vw', margin: '1rem 0rem 4rem 0rem' }}>With <p className='gradient-text'>over 25 years of experience,</p> we’ve proudly delivered high-quality residential and commercial painting services throughout Austin and the surrounding Central Texas area.</h2>
         <div className='areas-wrapper'>
           <div className='marquee-area'>
             <div style={{ padding: '2rem' }}>
-              <h2 style={{ fontSize: '1.1rem', marginBottom: '1rem' }}>Our work shines in Austin and its surrounding areas.</h2>
+              <h3 style={{ marginBottom: '1rem' }}>Our work shines in Austin and its surrounding areas.</h3>
               <LocationsMarquee />
             </div>
           </div>
-          <div style={{ backgroundImage: 'url(src/assets/austin.jpg)', backgroundPosition: 'center', backgroundSize: 'cover', borderRadius: '32px', overflow: 'hidden', height: '70vh', justifyContent: 'space-around'}}>
-            <h2 className='austintext' style={{ padding: '2rem', textShadow: '0 0 10px dimgrey', backgroundColor: 'rgb(0, 0, 0, .33)', borderRadius: '32px', height: '100%' }}>We understand that each neighborhood has its own personality and history, and we take pride in tailoring every project to complement its unique character. Whether it’s refreshing a family home or painting a commercial space, we bring attention to detail and a commitment to quality every time.</h2>
+          <div style={{ backgroundImage: 'url(src/assets/austin.jpg)', backgroundPosition: 'center', backgroundSize: 'cover', borderRadius: '32px', overflow: 'hidden', height: '70vh', justifyContent: 'space-around' }}>
+            <h2 className='austintext' style={{ padding: '2rem', textShadow: '0 0 10px dimgrey', backgroundColor: 'rgb(0, 0, 0, .4)', borderRadius: '32px', boxShadow: '0 0 200px 200px rgb(0, 0, 0, .4)' }}>We understand that each neighborhood has its own personality and history, and we take pride in tailoring every project to complement its unique character. Whether it’s refreshing a family home or painting a commercial space, we bring attention to detail and a commitment to quality every time.</h2>
           </div>
         </div>
       </div>
       <div style={{ textAlign: 'center', backgroundColor: 'black', padding: '1rem' }}>
-        <h3>
-          <p style={{ display: 'inline', fontSize: 'clamp(12px, 2vw, 1.5rem' }}>Turn your vision into reality — it begins with a free estimate. </p>
+          <h3 style={{ display: 'inline', fontSize: 'clamp(12px, 2vw, 1.5rem' }}>Turn your vision into reality — it begins with a free estimate. </h3>
           <a href='/contact' style={{ display: 'inline', whiteSpace: 'nowrap', fontSize: 'clamp(2rem, 4vw, 3rem)', fontStyle: 'italic', fontWeight: 'bolder' }}>Contact us →</a>
-        </h3>
       </div>
     </div>
   )

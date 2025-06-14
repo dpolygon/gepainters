@@ -10,12 +10,13 @@
 
 .residential-title {
     color: black;
-    padding-left: 5rem;
+    padding-left: 4rem;
+    width: 70%;
 }
 
 .residential-subtitle {
     color: rgb(77, 77, 77);
-    padding: 1rem 0 0 6rem;
+    padding: 1rem 0 0 5rem;
     width: 50%;
 }
 
