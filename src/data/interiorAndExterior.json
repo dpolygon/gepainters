@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "imageUrl": "src/assets/samplework/samp2.jpg",
     "descriptor": "Crisp Coverage",
     "title": "Interior wall and ceiling painting"
   },
   {
     "id": 2,
-    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "imageUrl": "src/assets/samplework/samp4.jpg",
     "descriptor": "Focal Feature",
     "title": "Accent walls"
   },
   {
     "id": 3,
-    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "imageUrl": "src/assets/samplework/samp3.jpg",
     "descriptor": "Weather-Resistant",
     "title": "Exterior siding, brick, stucco, and trim painting"
   },

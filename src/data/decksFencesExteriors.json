@@ -1,19 +1,19 @@
 [
   {
     "id": 20,
-    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "imageUrl": "src/assets/samplework/samp5.jpg",
     "descriptor": "Outdoor Protection",
     "title": "Fence and deck painting or staining"
   },
   {
     "id": 21,
-    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "imageUrl": "src/assets/samplework/samp3.jpg",
     "descriptor": "Weather Defense",
     "title": "Resealing wood structures"
   },
   {
     "id": 22,
-    "imageUrl": "src/assets/samplework/samp1.jpg",
+    "imageUrl": "src/assets/samplework/samp4.jpg",
     "descriptor": "Quick Fixes",
     "title": "Exterior touch-ups and restoration"
   },
