@@ -110,7 +110,7 @@ export default function ContactUsForm() {
                 <textarea required
                     style={{
                         resize: 'none',
-                        padding: '2rem 2rem 3rem 2rem',
+                        padding: '2rem 2rem 6rem 2rem',
                     }}
                     className='ContactUsInput'
                     value={text.message}

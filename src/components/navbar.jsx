@@ -33,7 +33,7 @@ export default function Navbar() {
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', padding: '0 2rem 0 2rem' }}>
             <h2 style={{cursor: 'default'}}>{pageTitle}</h2>
             <img onClick={() => window.location.href = '/'}
-              src='src/assets/logo.svg'
+              src='images/logo.svg'
               style={{
                 position: 'absolute',
                 left: '50%',

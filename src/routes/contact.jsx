@@ -16,7 +16,7 @@ export default function Contact() {
       </div>
       <h3 style={{ textAlign: 'center' }}>Submitting this form is like making the first phone call — it shows serious intent, and helps Lupe be ready to talk about your project during your consultation.</h3>
       <p style={{ paddingTop: '1rem', textAlign: 'center' }}>
-        Prefer to talk directly to Lupe? Tap any option below when you’re ready — let’s bring your vision to life!
+        Prefer to talk directly to Lupe? Open this page on your phone and tap any option below when you’re ready — let’s bring your vision to life!
       </p>
       <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', paddingTop: '1rem', height: '3rem'}}>
         <a href="sms:5125551234" className='contact-button'>Text 💬</a>

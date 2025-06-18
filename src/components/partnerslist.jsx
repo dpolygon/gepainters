@@ -5,51 +5,51 @@ export default function Partnerslist() {
 
 const builders = [
   {
-    logo: 'src/assets/partnerlogos/partner0.webp',
+    logo: 'images/partnerlogos/partner0.webp',
     link: "https://foursquarebuilders.com/"
   },
   {
-    logo: 'src/assets/partnerlogos/partner1.webp',
+    logo: 'images/partnerlogos/partner1.webp',
     link: "https://jaureguiarchitect.com/"
   },
   {
-    logo: 'src/assets/partnerlogos/partner2.jpg',
+    logo: 'images/partnerlogos/partner2.jpg',
     link: "https://tomhobbsco.com/"
   },
   {
-    logo: 'src/assets/partnerlogos/partner3.jpg',
+    logo: 'images/partnerlogos/partner3.jpg',
     link: "https://www.traviscreekhomes.com/"
   },
   {
-    logo: 'src/assets/partnerlogos/partner4.jpg',
+    logo: 'images/partnerlogos/partner4.jpg',
     link: "https://www.themuskincompany.com/"
   },
   {
-    logo: 'src/assets/partnerlogos/partner5.jpg',
+    logo: 'images/partnerlogos/partner5.jpg',
     link: "https://ashcreekhomes.com/"
   },
   {
-    logo: 'src/assets/partnerlogos/partner6.jpg',
+    logo: 'images/partnerlogos/partner6.jpg',
     link: "https://senderohomes.com"
   },
   {
-    logo: 'src/assets/partnerlogos/partner7.jpg',
+    logo: 'images/partnerlogos/partner7.jpg',
     link: "https://www.heylhomes.com/"
   },
   {
-    logo: 'src/assets/partnerlogos/partner8.jpg',
+    logo: 'images/partnerlogos/partner8.jpg',
     link: "https://www.capitexhomes.com/"
   },
   {
-    logo: 'src/assets/partnerlogos/partner9.jpg',
+    logo: 'images/partnerlogos/partner9.jpg',
     link: "https://www.wildehomes.com/"
   },
   {
-    logo: 'src/assets/partnerlogos/partner10.jpg',
+    logo: 'images/partnerlogos/partner10.jpg',
     link: "https://ca-builders.com/?"
   }, 
   {
-    logo: 'src/assets/partnerlogos/partner11.jpg',
+    logo: 'images/partnerlogos/partner11.jpg',
     link: "https://stuarthomecorp.com/"
   }
 ];

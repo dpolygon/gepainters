@@ -15,11 +15,11 @@ export default function Carrossel() {
     const intervalRef = useRef(null);
 
     const sampleImages = [
-        'src/assets/samplework/samp1.jpg',
-        'src/assets/samplework/samp2.jpg', 
-        'src/assets/samplework/samp3.jpg',
-        'src/assets/samplework/samp4.jpg',
-        'src/assets/samplework/samp5.jpg'
+        'images/samplework/samp1.jpg',
+        'images/samplework/samp2.jpg', 
+        'images/samplework/samp3.jpg',
+        'images/samplework/samp4.jpg',
+        'images/samplework/samp5.jpg'
     ];
 
     useEffect(() => {

@@ -105,7 +105,7 @@ background-image: linear-gradient(
 
 .services {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
   align-items: center;
   margin: 2rem;
@@ -125,7 +125,7 @@ background-image: linear-gradient(
 .gradient-text {
   display: inline;
   color: transparent;
-  background-image: url('src/assets/textgradient.jpg');
+  background-image: url('/images/textgradient.jpg');
   background-size: cover;
   -webkit-background-clip: text;
   background-clip: text;
@@ -147,6 +147,9 @@ background-image: linear-gradient(
 }
 
 @media screen and (max-width: 600px) {
+  .services {
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
   .carrossel-home {
     width: 90vw;
   }
