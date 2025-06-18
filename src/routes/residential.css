@@ -1,11 +1,31 @@
+.service-theme {
+    padding: 4rem 0 4rem 0
+}
+
+.residential-hero-banner {
+    padding: 4rem 0rem 0rem 0rem;
+    background-image: url('src/assets/samplework/samp1.jpg');
+    border-radius: 48px;
+    margin: 5rem 1.5rem;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+
 .residential-work-carrossel {
-    padding: 1rem 0rem 10rem 0rem
+    padding: 2rem 0rem 0rem 0rem
 }
 
 .residential-main-title {
-    padding-left: 4rem;
     font-size: clamp(4rem, 8vw, 5rem);
-    color: black;
+    margin-top: 3rem;
+}
+
+.residential-intro {
+    padding: 1rem 1rem 0 0;
+    width: 60%;
 }
 
 .residential-title {
@@ -20,13 +40,65 @@
     width: 50%;
 }
 
+.residential-call-exit {
+    background-image: linear-gradient(0deg,
+            hsl(0deg 0% 0%) 0%,
+            hsl(343deg 0% 6%) 16%,
+            hsl(343deg 0% 9%) 24%,
+            hsl(344deg 0% 13%) 30%,
+            hsl(344deg 0% 16%) 35%,
+            hsl(344deg 0% 20%) 39%,
+            hsl(344deg 0% 23%) 43%,
+            hsl(344deg 0% 27%) 47%,
+            hsl(344deg 0% 31%) 50%,
+            hsl(344deg 0% 35%) 53%,
+            hsl(344deg 0% 39%) 56%,
+            hsl(344deg 0% 43%) 59%,
+            hsl(344deg 0% 47%) 61%,
+            hsl(344deg 0% 51%) 64%,
+            hsl(344deg 0% 55%) 66%,
+            hsl(344deg 0% 59%) 69%,
+            hsl(344deg 0% 64%) 71%,
+            hsl(344deg 0% 68%) 74%,
+            hsl(344deg 0% 72%) 77%,
+            hsl(344deg 0% 77%) 79%,
+            hsl(344deg 0% 81%) 82%,
+            hsl(344deg 0% 86%) 85%,
+            hsl(344deg 0% 91%) 89%,
+            hsl(344deg 0% 95%) 93%,
+            hsl(0deg 0% 100%) 100%);
+}
+
+.multihome-options {
+    padding: 2rem
+}
+
 @media screen and (max-width: 900px) {
+
+    .residential-hero-banner {
+        margin: 0 0 0 0;
+        padding: 11rem 0 0 0;
+        border-radius: 0px;
+    }
+
+    .multihome-options {
+        padding: 1rem
+    }
+
+    .residential-main-title {
+    }
+
+    .residential-intro {
+        width: 90%;
+    }
+
     .residential-work-carrossel {
-        padding: 2rem 0rem 2rem 0rem
+        padding: 2rem 0rem 2rem 0rem;
     }
 
     .residential-title {
         padding-left: 2rem;
+        width: 90%;
     }
 
     .residential-subtitle {

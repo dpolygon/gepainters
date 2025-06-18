@@ -25,8 +25,8 @@ export default function Workcarrossel({ data }) {
                 ))}
             </div>
             <div className="carousel-button-wrapper">
-                <button className='work-carrossel-buttons' onClick={() => scrollByRem(-25)}>←</button>
-                <button className='work-carrossel-buttons' onClick={() => scrollByRem(25)}>→</button>
+                <button className='work-carrossel-buttons' onClick={() => scrollByRem(-23)}>←</button>
+                <button className='work-carrossel-buttons' onClick={() => scrollByRem(23)}>→</button>
             </div>
         </div>
     )
