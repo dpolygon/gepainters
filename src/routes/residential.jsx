@@ -12,9 +12,9 @@ import VisualTextPairList from '../components/visualTextPairList'
 export default function Residential() {
   return (
     <div>
-      <div className="residential-hero-banner">
+      <div className="residential-hero-banner" style={{ backgroundImage: `url('/images/samplework/residential.avif')`}}>
         <div style={{ padding: '0 0 6rem 1rem' }}>
-          <div style={{width: 'fit-content', boxShadow: '0 0 50px 40px rgb(0, 0, 0, .6)', backgroundColor: 'rgb(0, 0, 0, .6)' }}>
+          <div style={{boxShadow: '0 0 80px 75px rgb(0, 0, 0, .5)', backgroundColor: 'rgb(0, 0, 0, .5)', borderRadius: '32px', width: '70vw' }}>
             <h1 className='residential-main-title'>Residential Services</h1>
             <h3 className="residential-intro">
               At GE Painter, we bring craftsmanship, reliability, and attention to detail to every residential project. Whether you’re updating your home’s interior, enhancing curb appeal, or starting from the ground up, we offer a comprehensive range of services to meet your needs.

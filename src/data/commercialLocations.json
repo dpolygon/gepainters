@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "images/samplework/retail.avif",
+    "descriptor": "Customer Spaces",
+    "title": "Retail stores and shopping centers"
+  },
+  {
+    "id": 2,
+    "imageUrl": "images/samplework/financial.avif",
+    "descriptor": "Secure Presence",
+    "title": "Banks and financial institutions"
+  },
+  {
+    "id": 3,
+    "imageUrl": "images/samplework/corporate.avif",
+    "descriptor": "Corporate Style",
+    "title": "Corporate offices"
+  },
+  {
+    "id": 4,
+    "imageUrl": "images/samplework/gym.avif",
+    "descriptor": "Durable Finish",
+    "title": "Gyms and fitness centers"
+  },
+  {
+    "id": 5,
+    "imageUrl": "images/samplework/venues.avif",
+    "descriptor": "Lively Color",
+    "title": "Venues and entertainment spaces"
+  },
+  {
+    "id": 6,
+    "imageUrl": "images/samplework/complex.avif",
+    "descriptor": "Multi-Unit Care",
+    "title": "Apartment complexes and leasing offices"
+  },
+  {
+    "id": 7,
+    "imageUrl": "images/samplework/resturant.avif",
+    "descriptor": "Guest-Ready",
+    "title": "Restaurants and hospitality venues"
+  },
+  {
+    "id": 8,
+    "imageUrl": "images/samplework/worship.avif",
+    "descriptor": "Respectful Restoration",
+    "title": "Religious institutions and places of worship"
+  }
+]

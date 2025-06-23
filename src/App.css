@@ -71,34 +71,32 @@
   flex-direction: column;
   justify-content: space-between;
   height: auto;
-background-image: linear-gradient(
-    0deg,
-    hsl(0deg 0% 100%) 0%,
-    hsl(344deg 0% 95%) 7%,
-    hsl(344deg 0% 91%) 13%,
-    hsl(344deg 0% 86%) 17%,
-    hsl(344deg 0% 81%) 21%,
-    hsl(344deg 0% 77%) 25%,
-    hsl(344deg 0% 72%) 29%,
-    hsl(344deg 0% 68%) 32%,
-    hsl(344deg 0% 64%) 35%,
-    hsl(344deg 0% 59%) 38%,
-    hsl(344deg 0% 55%) 41%,
-    hsl(344deg 0% 51%) 44%,
-    hsl(344deg 0% 47%) 47%,
-    hsl(344deg 0% 43%) 50%,
-    hsl(344deg 0% 39%) 53%,
-    hsl(344deg 0% 35%) 56%,
-    hsl(344deg 0% 31%) 59%,
-    hsl(344deg 0% 27%) 62%,
-    hsl(344deg 0% 23%) 65%,
-    hsl(344deg 0% 20%) 68%,
-    hsl(344deg 0% 16%) 71%,
-    hsl(344deg 0% 13%) 75%,
-    hsl(343deg 0% 9%) 79%,
-    hsl(343deg 0% 6%) 85%,
-    hsl(0deg 0% 0%) 95%
-  );
+  background-image: linear-gradient(0deg,
+      hsl(0deg 0% 100%) 0%,
+      hsl(344deg 0% 95%) 7%,
+      hsl(344deg 0% 91%) 13%,
+      hsl(344deg 0% 86%) 17%,
+      hsl(344deg 0% 81%) 21%,
+      hsl(344deg 0% 77%) 25%,
+      hsl(344deg 0% 72%) 29%,
+      hsl(344deg 0% 68%) 32%,
+      hsl(344deg 0% 64%) 35%,
+      hsl(344deg 0% 59%) 38%,
+      hsl(344deg 0% 55%) 41%,
+      hsl(344deg 0% 51%) 44%,
+      hsl(344deg 0% 47%) 47%,
+      hsl(344deg 0% 43%) 50%,
+      hsl(344deg 0% 39%) 53%,
+      hsl(344deg 0% 35%) 56%,
+      hsl(344deg 0% 31%) 59%,
+      hsl(344deg 0% 27%) 62%,
+      hsl(344deg 0% 23%) 65%,
+      hsl(344deg 0% 20%) 68%,
+      hsl(344deg 0% 16%) 71%,
+      hsl(344deg 0% 13%) 75%,
+      hsl(343deg 0% 9%) 79%,
+      hsl(343deg 0% 6%) 85%,
+      hsl(0deg 0% 0%) 95%);
   z-index: -4;
   padding-top: 6rem;
 }
@@ -111,6 +109,14 @@ background-image: linear-gradient(
   margin: 2rem;
   width: auto;
   height: 100%;
+}
+
+.services-title {
+  padding: 4rem 0 2rem 0;
+  font-size: clamp(4rem, 14vw, 6rem);
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
 }
 
 .choose-gepainter {
@@ -148,8 +154,9 @@ background-image: linear-gradient(
 
 @media screen and (max-width: 600px) {
   .services {
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
+
   .carrossel-home {
     width: 90vw;
   }
@@ -168,34 +175,32 @@ background-image: linear-gradient(
   flex-direction: column;
   align-items: center;
   padding: 0 0 5rem 0;
-  background-image: linear-gradient(
-    180deg,
-    hsl(0deg 0% 100%) 0%,
-    hsl(344deg 0% 95%) 7%,
-    hsl(344deg 0% 91%) 13%,
-    hsl(344deg 0% 86%) 17%,
-    hsl(344deg 0% 81%) 21%,
-    hsl(344deg 0% 77%) 25%,
-    hsl(344deg 0% 72%) 29%,
-    hsl(344deg 0% 68%) 32%,
-    hsl(344deg 0% 64%) 35%,
-    hsl(344deg 0% 59%) 38%,
-    hsl(344deg 0% 55%) 41%,
-    hsl(344deg 0% 51%) 44%,
-    hsl(344deg 0% 47%) 47%,
-    hsl(344deg 0% 43%) 50%,
-    hsl(344deg 0% 39%) 53%,
-    hsl(344deg 0% 35%) 56%,
-    hsl(344deg 0% 31%) 59%,
-    hsl(344deg 0% 27%) 62%,
-    hsl(344deg 0% 23%) 65%,
-    hsl(344deg 0% 20%) 68%,
-    hsl(344deg 0% 16%) 71%,
-    hsl(344deg 0% 13%) 75%,
-    hsl(343deg 0% 9%) 79%,
-    hsl(343deg 0% 6%) 85%,
-    hsl(0deg 0% 0%) 95%
-  );
+  background-image: linear-gradient(180deg,
+      hsl(0deg 0% 100%) 0%,
+      hsl(344deg 0% 95%) 7%,
+      hsl(344deg 0% 91%) 13%,
+      hsl(344deg 0% 86%) 17%,
+      hsl(344deg 0% 81%) 21%,
+      hsl(344deg 0% 77%) 25%,
+      hsl(344deg 0% 72%) 29%,
+      hsl(344deg 0% 68%) 32%,
+      hsl(344deg 0% 64%) 35%,
+      hsl(344deg 0% 59%) 38%,
+      hsl(344deg 0% 55%) 41%,
+      hsl(344deg 0% 51%) 44%,
+      hsl(344deg 0% 47%) 47%,
+      hsl(344deg 0% 43%) 50%,
+      hsl(344deg 0% 39%) 53%,
+      hsl(344deg 0% 35%) 56%,
+      hsl(344deg 0% 31%) 59%,
+      hsl(344deg 0% 27%) 62%,
+      hsl(344deg 0% 23%) 65%,
+      hsl(344deg 0% 20%) 68%,
+      hsl(344deg 0% 16%) 71%,
+      hsl(344deg 0% 13%) 75%,
+      hsl(343deg 0% 9%) 79%,
+      hsl(343deg 0% 6%) 85%,
+      hsl(0deg 0% 0%) 95%);
 }
 
 .areas-wrapper {
@@ -229,5 +234,11 @@ background-image: linear-gradient(
 @media screen and (max-width: 1100px) {
   .splash-logo {
     display: none;
+  }
+
+  .services-title {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
   }
 }

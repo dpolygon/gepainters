@@ -1,85 +1,85 @@
 [
   {
     "id": 1,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "images/materials/wood.avif",
     "descriptor": "Natural Look",
     "title": "Wood siding"
   },
   {
     "id": 2,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "images/materials/cedar.avif",
     "descriptor": "Rustic Appeal",
     "title": "Cedar shingles"
   },
   {
     "id": 3,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "images/materials/vinyl.png",
     "descriptor": "Low-Maintenance",
     "title": "Vinyl siding"
   },
   {
     "id": 4,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "images/materials/brick.avif",
     "descriptor": "Timeless Texture",
     "title": "Brick"
   },
   {
     "id": 5,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "images/materials/stucco.avif",
     "descriptor": "Smooth Exterior",
     "title": "Stucco"
   },
   {
     "id": 6,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "images/materials/aluminum.avif",
     "descriptor": "Modern Style",
     "title": "Aluminum siding"
   },
   {
     "id": 7,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "images/materials/composite.avif",
     "descriptor": "Durable Blend",
     "title": "Composite siding"
   },
   {
     "id": 8,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "images/materials/metal.avif",
     "descriptor": "Secure Entry",
     "title": "Metal doors"
   },
   {
     "id": 9,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "images/materials/fence.avif",
     "descriptor": "Defined Boundaries",
     "title": "Fences"
   },
   {
     "id": 10,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "images/materials/window.avif",
     "descriptor": "Detailed Finish",
     "title": "Windows"
   },
   {
     "id": 11,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "images/materials/garage.avif",
     "descriptor": "Refined Surface",
     "title": "Garage doors"
   },
   {
     "id": 12,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "images/materials/stone.avif",
     "descriptor": "Natural Texture",
     "title": "Stone veneer"
   },
   {
     "id": 13,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "images/materials/cement.avif",
     "descriptor": "Moisture Resistant",
     "title": "Cement board siding"
   },
   {
     "id": 14,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "images/materials/soffit.avif",
     "descriptor": "Clean Appearance",
     "title": "Soffits and Fascia"
   }

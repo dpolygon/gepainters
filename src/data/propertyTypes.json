@@ -1,0 +1,26 @@
+[
+  {
+    "id": 9,
+    "imageUrl": "images/samplework/samp1.jpg",
+    "descriptor": "Tenant Ready",
+    "title": "Apartments and condominiums"
+  },
+  {
+    "id": 10,
+    "imageUrl": "images/samplework/samp2.jpg",
+    "descriptor": "Multi-Unit",
+    "title": "Duplexes and fourplexes"
+  },
+  {
+    "id": 11,
+    "imageUrl": "images/samplework/samp3.jpg",
+    "descriptor": "Portfolio Scale",
+    "title": "Multi-building complexes"
+  },
+  {
+    "id": 12,
+    "imageUrl": "images/samplework/samp4.jpg",
+    "descriptor": "Quick Turnover",
+    "title": "Rental turnover painting"
+  }
+]

@@ -35,15 +35,18 @@ function App() {
         </div>
       </div>
       <div className='services-summary'>
-        <h1 style={{ padding: '4rem 2rem 4rem 2rem', fontSize: 'clamp(4rem, 14vw, 6rem)' }}>Your Vision. <p style={{ whiteSpace: 'nowrap', display: 'inline' }}>Our <p style={{ display: 'inline' }} className='gradient-text'>Craft.</p></p></h1>
+        <h1 className="services-title">
+          Your Vision.&nbsp;
+          <span>Our <span className="gradient-text">Craft.</span></span>
+        </h1>
         <div className='services'>
           <ServiceCell src='/images/residential.jpg' link='/residential' title='Residential' icon={BiSolidHomeHeart} subtitle='Make your house feel like home inside and out' desc='From modern makeovers to careful restorations, we specialize in custom interior and exterior painting, trim work, and surface repairs that stand the test of time.' />
           <ServiceCell src='/images/commercial.jpg' link='/commercial' title='Commercial' icon={MdAddBusiness} subtitle='We help Austin’s businesses look their best' desc='Whether it’s a fresh coat for a retail space, durable finishes for apartments, or precision striping in a parking lot.' />
         </div>
       </div>
       <div className='choose-gepainter'>
-          <h1 style={{ color: 'black', fontSize: '5rem' }}>Why<br></br> Settle? <br></br><br></br> Choose</h1>
-          <h1 className='gradient-text' style={{ fontSize: '5rem' }}>G.E. Painter</h1>
+        <h1 style={{ color: 'black', fontSize: '5rem' }}>Why<br></br> Settle? <br></br><br></br> Choose</h1>
+        <h1 className='gradient-text' style={{ fontSize: '5rem' }}>G.E. Painter</h1>
       </div>
       <div className='gepainter-minigallery'>
         <div className='carrossel-home'>
@@ -77,8 +80,8 @@ function App() {
         </div>
       </div>
       <div style={{ textAlign: 'center', backgroundColor: 'black', padding: '1rem' }}>
-          <h3 style={{ display: 'inline', fontSize: 'clamp(12px, 2vw, 1.5rem' }}>Turn your vision into reality — it begins with a free estimate. </h3>
-          <a href='/contact' style={{ display: 'inline', whiteSpace: 'nowrap', fontSize: 'clamp(2rem, 4vw, 3rem)', fontStyle: 'italic', fontWeight: 'bolder' }}>Contact us →</a>
+        <h3 style={{ display: 'inline', fontSize: 'clamp(12px, 2vw, 1.5rem' }}>Turn your vision into reality — it begins with a free estimate. </h3>
+        <a href='/contact' style={{ display: 'inline', whiteSpace: 'nowrap', fontSize: 'clamp(2rem, 4vw, 3rem)', fontStyle: 'italic', fontWeight: 'bolder' }}>Contact us →</a>
       </div>
     </div>
   )

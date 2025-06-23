@@ -1,0 +1,32 @@
+[
+  {
+    "id": 14,
+    "imageUrl": "images/samplework/samp1.jpg",
+    "descriptor": "Safety & Order",
+    "title": "Line striping and parking lot markings"
+  },
+  {
+    "id": 15,
+    "imageUrl": "images/samplework/samp2.jpg",
+    "descriptor": "Heavy-Duty",
+    "title": "Epoxy and concrete floor coatings"
+  },
+  {
+    "id": 16,
+    "imageUrl": "images/samplework/samp3.jpg",
+    "descriptor": "Surface Refresh",
+    "title": "Pressure washing of sidewalks, driveways, and walls"
+  },
+  {
+    "id": 17,
+    "imageUrl": "images/samplework/samp4.jpg",
+    "descriptor": "Weatherproof Finish",
+    "title": "Staining, painting, and sealing of exterior wood or metal surfaces"
+  },
+  {
+    "id": 18,
+    "imageUrl": "images/samplework/samp5.jpg",
+    "descriptor": "Damage Repair",
+    "title": "Graffiti cover-up and wall restoration"
+  }
+]

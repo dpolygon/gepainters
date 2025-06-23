@@ -3,14 +3,14 @@
 }
 
 .residential-hero-banner {
-    padding: 4rem 0rem 0rem 0rem;
-    background-image: url('/images/samplework/samp1.jpg');
+    padding: 12rem 0rem 0rem 0rem;
     border-radius: 48px;
-    margin: 5rem 1.5rem;
+    margin: 4rem 1.5rem 1rem 1.5rem;
     background-size: cover;
     background-position: center;
     transition: all 0.3s ease;
     overflow: hidden;
+    display: flex;
 }
 
 
@@ -25,7 +25,6 @@
 
 .residential-intro {
     padding: 1rem 1rem 0 0;
-    width: 60%;
 }
 
 .residential-title {
