@@ -10,7 +10,8 @@ export default function VisualTextPair({ imageUrl, text }) {
                     borderRadius: '50%',
                     overflow: 'hidden',
                     backgroundImage: `url(${imageUrl})`,
-                    backgroundSize: '200%'
+                    backgroundSize: '200%',
+                    backgroundPosition: 'center'
                 }}
             ></div>
             <div style={{ padding: '1rem 0 0rem 0rem' }}>

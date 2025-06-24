@@ -10,7 +10,7 @@
     border: none;
     border-radius: 48px;
     background-color: white;
-    box-shadow: 0 0 10px 1px lightgray;
+    box-shadow: 0 0 8px 1px lightgray;
     color: black;
     font-size: 1rem;
     padding: 2rem;
@@ -20,13 +20,13 @@
     border-radius: 32px;
     background: black;
     color: white;
-
+    border: none;
+    transition: all .2s ease;
 }
 
 .ContactUsSendButton:hover {
-    background: white;
-    color: black;
-    border: none;
+  border: solid 2px lightgray;  
+  box-shadow: 0 0 100px 2px lightgray;
 }
 
 .ContactUsForm {

@@ -119,7 +119,7 @@ export default function ContactUsForm() {
                     placeholder='Ask us anything or give us a brief description of your project 🏠🏬'
                     maxLength="4000"
                 />
-                <button style={{ height: '80px', fontSize: '15px', border: 'none' }} className='ContactUsSendButton' disabled={isLoading}>
+                <button style={{ height: '80px', fontSize: '15px' }} className='ContactUsSendButton' disabled={isLoading}>
                     {isLoading ? 'Sending...' : 'Send'}
                 </button>
             </form>

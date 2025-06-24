@@ -10,7 +10,7 @@ import {
 import App from './App.jsx'
 
 import Navbar from './components/navbar.jsx';
-
+import ScrollToTop from './components/scrollToTop.jsx';
 import ErrorPage from './routes/errorpage.jsx';
 import Residential from './routes/residential.jsx';
 import Commercial from './routes/commercial.jsx';
@@ -24,6 +24,7 @@ const Applayout = () => {
   return (
     <>
       <Navbar/>
+      <ScrollToTop/>
       <Outlet/>
       <Footer/>
     </>

@@ -1,98 +1,74 @@
 [
   {
     "id": 45,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "images/commercial/door.avif",
     "descriptor": "Entry Points",
     "title": "Door and trim repainting"
   },
   {
     "id": 46,
-    "imageUrl": "images/samplework/samp2.jpg",
+    "imageUrl": "images/commercial/scuff.avif",
     "descriptor": "Wall Refresh",
     "title": "Scuff repair and wall touch-ups"
   },
   {
     "id": 47,
-    "imageUrl": "images/samplework/samp3.jpg",
+    "imageUrl": "images/commercial/reception.avif",
     "descriptor": "Lobby Appeal",
     "title": "Reception and entryway painting"
   },
   {
     "id": 48,
-    "imageUrl": "images/samplework/samp4.jpg",
+    "imageUrl": "images/commercial/breakroom.avif",
     "descriptor": "Break Zones",
     "title": "Conference and break room repainting"
   },
   {
     "id": 49,
-    "imageUrl": "images/samplework/samp5.jpg",
+    "imageUrl": "images/commercial/stairwell.avif",
     "descriptor": "High Traffic",
-    "title": "Touch-up programs for stairwells and halls"
+    "title": "Stairwells and halls painting"
   },
   {
     "id": 50,
-    "imageUrl": "images/samplework/samp6.jpg",
+    "imageUrl": "images/commercial/ceiling.avif",
     "descriptor": "Ceiling Care",
     "title": "Acoustical tile and grid painting"
   },
   {
     "id": 51,
-    "imageUrl": "images/samplework/brandupdates.png",
+    "imageUrl": "images/commercial/rebranding.avif",
     "descriptor": "Brand Updates",
     "title": "Interior color refreshes for rebranding"
   },
   {
     "id": 52,
-    "imageUrl": "images/samplework/samp8.jpg",
+    "imageUrl": "images/commercial/warehouse.avif",
     "descriptor": "Safety Zones",
     "title": "Color-coded markings for warehouse areas"
   },
   {
     "id": 53,
-    "imageUrl": "images/samplework/samp9.jpg",
+    "imageUrl": "images/commercial/restaurant.avif",
     "descriptor": "Dining Spaces",
     "title": "Restaurant wall and ceiling repainting"
   },
   {
     "id": 54,
-    "imageUrl": "images/samplework/samp10.jpg",
+    "imageUrl": "images/commercial/kitchen.avif",
     "descriptor": "Kitchen Coats",
     "title": "Grease-resistant coatings for kitchens"
   },
   {
     "id": 55,
-    "imageUrl": "images/samplework/samp11.jpg",
+    "imageUrl": "images/commercial/medical.avif",
     "descriptor": "Clean Rooms",
     "title": "Antimicrobial coatings for medical spaces"
   },
   {
-    "id": 56,
-    "imageUrl": "images/samplework/samp12.jpg",
-    "descriptor": "Retail Ready",
-    "title": "Display wall and fitting room painting"
-  },
-  {
-    "id": 57,
-    "imageUrl": "images/samplework/samp13.jpg",
-    "descriptor": "Tenant Turn",
-    "title": "Rental turnover repainting"
-  },
-  {
-    "id": 59,
-    "imageUrl": "images/samplework/samp15.jpg",
-    "descriptor": "Utility Areas",
-    "title": "Maintenance rooms and back-of-house painting"
-  },
-  {
     "id": 60,
-    "imageUrl": "images/samplework/samp16.jpg",
+    "imageUrl": "images/commercial/office.avif",
     "descriptor": "Office Polish",
     "title": "Executive office and meeting room refresh"
-  },
-  {
-    "id": 61,
-    "imageUrl": "images/samplework/samp17.jpg",
-    "descriptor": "Tenant Fit",
-    "title": "Custom painting for new tenants"
   }
 ]

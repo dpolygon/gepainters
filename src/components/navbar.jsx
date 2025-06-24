@@ -1,16 +1,34 @@
-import React, { act, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './navbar.css'
-import { Link, NavLink, useLocation } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import { HiBars2 } from "react-icons/hi2";
 import { IoMdClose } from "react-icons/io";
 
 export default function Navbar() {
 
+  const menuRef = useRef(null); // Ref for detecting outside click
   const [active, setActive] = useState(false)
   const handleClick = () => {
     setActive(!active)
     console.log('that tickled')
   }
+
+  // Close when clicking outside navbar 
+  useEffect(() => {
+    const handleOutsideClick = (e) => {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setActive(false);
+      }
+    };
+
+    if (active) {
+      document.addEventListener('mousedown', handleOutsideClick);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleOutsideClick);
+    };
+  }, [active]);
 
   const routeTitles = {
     '/': 'Home',
@@ -23,15 +41,12 @@ export default function Navbar() {
   const location = useLocation();
   const pageTitle = routeTitles[location.pathname];
 
-
-
   return (
-
-    <nav className='navbar'>
+    <nav ref={menuRef} className='navbar'>
       <div className={active === false ? 'navbar-content' : 'navbar-content active'}>
         <div className='menu-items' style={{ width: '100%' }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', padding: '0 2rem 0 2rem' }}>
-            <h2 style={{cursor: 'default'}}>{pageTitle}</h2>
+            <h2 style={{ cursor: 'default' }}>{pageTitle}</h2>
             <img onClick={() => window.location.href = '/'}
               src='images/logo.svg'
               style={{
