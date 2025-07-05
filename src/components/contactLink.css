@@ -1,0 +1,19 @@
+.contact-us-link {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-style: italic;
+  font-weight: bolder;
+  text-decoration: none;
+  border: solid 2px white;
+  border-radius: 32px;
+  padding: .5rem;
+  line-height: 2;
+  transition: all .2s ease;
+}
+
+.contact-us-link:hover {
+    background-color: #0077ED;
+}

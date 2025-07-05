@@ -1,9 +1,10 @@
 .contact-us-bg {
-    background-image: url('images/contactusbg2.avif');
+    background-image: url('/images/contactusbg2.avif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .contact-us {
   padding: 0rem 5rem 5rem 5rem;
   background-image: linear-gradient(180deg,
@@ -50,7 +51,7 @@
 }
 
 .contact-button:hover {
-  background-color: #252525;
+  background-color: #0077ED;
   box-shadow: 0 0 100px 2px rgb(172, 172, 172);
   border: solid 2px lightgray;
   padding: 1.15rem;

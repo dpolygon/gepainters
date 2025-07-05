@@ -13,7 +13,7 @@ export default function Footer() {
             <img src='images/logo.svg' style={{height: '100%', width: '100%', objectFit: 'contain'}}/>
         </div>
         <div style={{fontSize: 'clamp(12px, 1vw, 1rem)'}}>
-          2025 G.E. Painters & <a href='https://lonestardev.net' style={{display: 'inline'}}>LoneStarDev.</a> All Rights Reserved.
+          2025 G.E. Painter & <a href='https://lonestardev.net' style={{display: 'inline'}}>LoneStarDev.</a> All Rights Reserved.
         </div>
 </div>
   )

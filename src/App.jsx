@@ -10,6 +10,7 @@ import './App.css'
 import Carrossel from './components/carrossel';
 import Partnerslist from './components/partnerslist';
 import LocationsMarquee from './components/locationsmarquee';
+import ContactUsLink from './components/contactLink.jsx';
 
 function App() {
 
@@ -81,7 +82,7 @@ function App() {
       </div>
       <div style={{ textAlign: 'center', backgroundColor: 'black', padding: '1rem' }}>
         <h3 style={{ display: 'inline', fontSize: 'clamp(12px, 2vw, 1.5rem' }}>Turn your vision into reality — it begins with a free estimate. </h3>
-        <a href='/contact' style={{ display: 'inline', whiteSpace: 'nowrap', fontSize: 'clamp(2rem, 4vw, 3rem)', fontStyle: 'italic', fontWeight: 'bolder' }}>Contact us →</a>
+        <ContactUsLink/>
       </div>
     </div>
   )

@@ -2,11 +2,12 @@
 .service-cell {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     overflow: hidden;
     background-image: linear-gradient(to bottom, white, lightgrey);
     box-shadow: inset 0 0 10px 2px white;
-    border-radius: 19px;
     color: black;
+    border-radius: 10px;
     height: 100%;
 }
 
@@ -63,12 +64,20 @@
 .service-button {
     color: rgb(70, 70, 70);
     margin-right: 1.5rem;
-    background-color: white;
+    background-color: transparent;
     padding: 20px;
     border-radius: 32px;
     text-align: center;
     cursor: pointer;
     box-shadow: 0 0 450px 80px black;
+    border: solid 1px white;
     text-decoration: none;
     font-weight: bold;
+    transition: all .2s ease;
+}
+
+.service-button:hover {
+    color: white;
+    background-color: #0077ED;
+    border: solid 1px #0077ED;
 }

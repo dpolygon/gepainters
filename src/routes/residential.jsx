@@ -8,19 +8,23 @@ import concreteGarage from '../../src/data/concreteAndGarage.json'
 import decksFencesExterior from '../../src/data/decksFencesExteriors.json'
 import materials from '../../src/data/materials.json'
 import VisualTextPairList from '../components/visualTextPairList'
+import ContactUsLink from '../components/contactLink'
 
 export default function Residential() {
   return (
     <div>
-      <div className="residential-hero-banner" style={{ backgroundImage: `url('/images/samplework/residential.avif')`}}>
+      <div className="residential-hero-banner" style={{ backgroundImage: `url('/images/samplework/residential.avif')` }}>
         <div style={{ padding: '0 0 6rem 1rem' }}>
-          <div style={{boxShadow: '0 0 80px 75px rgb(0, 0, 0, .5)', backgroundColor: 'rgb(0, 0, 0, .5)', borderRadius: '80px', width: '70vw' }}>
+          <div style={{ boxShadow: '0 0 80px 75px rgb(0, 0, 0, .5)', backgroundColor: 'rgb(0, 0, 0, .5)', borderRadius: '80px', width: '70vw' }}>
             <h1 className='residential-main-title'>Residential Services</h1>
-            <h3 className="residential-intro">
-              At GE Painter, we bring craftsmanship, reliability, and attention to detail to every residential project. Whether you’re updating your home’s interior, enhancing curb appeal, or starting from the ground up, we offer a comprehensive range of services to meet your needs.
-            </h3>
           </div>
         </div>
+      </div>
+
+      <div className="service-theme" style={{display: 'flex', justifyContent: 'center', backgroundColor: 'rgb(0, 0, 0, .05)'}}>
+        <h3 className="residential-intro">
+          At GE Painter, we bring craftsmanship, reliability, and attention to detail to every residential project. Whether you’re updating your home’s interior, enhancing curb appeal, or starting from the ground up, we offer a comprehensive range of services to meet your needs.
+        </h3>
       </div>
 
       <div className='service-theme'>
@@ -67,7 +71,7 @@ export default function Residential() {
       <div className='residential-call-exit' style={{ textAlign: 'center', backgroundColor: 'black', padding: '1rem', height: '20vh', alignContent: 'end' }}>
         <h3>
           <p style={{ display: 'inline', fontSize: 'clamp(12px, 2vw, 1.5rem' }}>Need help deciding what your home needs? Reach out today and let’s make a plan together! </p>
-          <a href='/contact' style={{ display: 'inline', whiteSpace: 'nowrap', fontSize: 'clamp(2rem, 4vw, 3rem)', fontStyle: 'italic', fontWeight: 'bolder' }}>Contact us →</a>
+          <ContactUsLink />
         </h3>
       </div>
 

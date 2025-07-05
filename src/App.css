@@ -104,9 +104,9 @@
 .services {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
-  margin: 2rem;
+  margin: 1rem;
   width: auto;
   height: 100%;
 }

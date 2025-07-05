@@ -6,19 +6,23 @@ import commercialLocations from '../../src/data/commercialLocations.json'
 import propertyTypes from '../../src/data/propertyTypes.json'
 import beyondWalls from '../../src/data/beyondWalls.json'
 import highTraffic from '../../src/data/highTraffic.json'
+import ContactUsLink from '../components/contactLink'
 
 export default function Commercial() {
   return (
     <div>
-      <div className="residential-hero-banner" style={{ backgroundImage: `url('/images/samplework/open.avif')`}}>
+      <div className="residential-hero-banner" style={{ backgroundImage: `url('/images/samplework/open.avif')` }}>
         <div style={{ padding: '0 0 6rem 1rem' }}>
-          <div style={{boxShadow: '0 0 80px 75px rgb(0, 0, 0, .5)', backgroundColor: 'rgb(0, 0, 0, .5)', borderRadius: '80px', width: '70vw' }}>
+          <div style={{ boxShadow: '0 0 80px 75px rgb(0, 0, 0, .5)', backgroundColor: 'rgb(0, 0, 0, .5)', borderRadius: '80px', width: '70vw' }}>
             <h1 className='residential-main-title'>Commercial Services</h1>
-            <h3 className="residential-intro">
-              We understand the demands of commercial environments. Whether you’re operating a high-traffic storefront or managing a portfolio of properties, we provide professional, reliable painting and surface services tailored to your business needs.              </h3>
           </div>
         </div>
+      </div>
 
+      <div className="service-theme" style={{ display: 'flex', justifyContent: 'center', backgroundColor: 'rgb(0, 0, 0, .05)' }}>
+        <h3 className="residential-intro">
+          We understand the demands of commercial environments. Whether you’re operating a high-traffic storefront or managing a portfolio of properties, we provide professional, reliable painting and surface services tailored to your business needs.
+        </h3>
       </div>
 
       <div className='service-theme'>
@@ -56,8 +60,8 @@ export default function Commercial() {
 
       <div className='residential-call-exit' style={{ textAlign: 'center', backgroundColor: 'black', padding: '1rem', height: '20vh', alignContent: 'end' }}>
         <h3>
-          <p style={{ display: 'inline', fontSize: 'clamp(12px, 2vw, 1.5rem' }}>Need help deciding what your home needs? Reach out today and let’s make a plan together! </p>
-          <a href='/contact' style={{ display: 'inline', whiteSpace: 'nowrap', fontSize: 'clamp(2rem, 4vw, 3rem)', fontStyle: 'italic', fontWeight: 'bolder' }}>Contact us →</a>
+          <p style={{ display: 'inline', fontSize: 'clamp(12px, 2vw, 1.5rem' }}>Need help deciding what your business needs? Reach out today and let’s make a plan together! </p>
+          <ContactUsLink />
         </h3>
       </div>
 

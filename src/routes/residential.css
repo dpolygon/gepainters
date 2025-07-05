@@ -4,13 +4,12 @@
 
 .residential-hero-banner {
     padding: 12rem 0rem 0rem 0rem;
-    border-radius: 48px;
-    margin: 4rem 1.5rem 1rem 1.5rem;
     background-size: cover;
     background-position: center;
     transition: all 0.3s ease;
     overflow: hidden;
     display: flex;
+    justify-content: center;
 }
 
 
@@ -19,12 +18,16 @@
 }
 
 .residential-main-title {
-    font-size: clamp(4rem, 8vw, 5rem);
-    margin-top: 3rem;
+    font-size: clamp(4rem, 8vw, 6rem);
+    margin-top: 10rem;
+    text-align: center;
 }
 
 .residential-intro {
-    padding: 1rem 1rem 0 0;
+    color: black;
+    width: 74vw;
+    justify-content: center;
+    text-align: center;
 }
 
 .residential-title {
