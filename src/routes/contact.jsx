@@ -8,9 +8,9 @@ export default function Contact() {
 
   return (
     <div className='contact-us-bg'>
-      <div className='contact-us' style={{ display: 'flex', flexDirection: 'column', paddingTop: '12rem' }}>
-        <h1 style={{ color: 'black', fontSize: 'clamp(3rem, 8vw, 5rem)', textAlign: 'left' }}>Contact Us</h1>
-        <h3 style={{ color: 'black', paddingTop: '1rem'}}>Interested in working with us? Want a free estimate?
+      <div className='contact-us' style={{ display: 'flex', flexDirection: 'column', paddingTop: '16rem' }}>
+        <h1 style={{ color: 'black', fontSize: 'clamp(3rem, 8vw, 5rem)', textAlign: 'center' }}>Contact Us</h1>
+        <h3 style={{ color: 'black', paddingTop: '1rem', textAlign: 'center'}}>Interested in working with us? Want a free estimate?
           Please fill out the form below to help Lupe get a general idea of your project. Every job is unique, and full details will be discussed over the phone or in person — this just helps us get a head start.</h3>
         <div className='contactus-form-wrapper'>
           <ContactUsForm />

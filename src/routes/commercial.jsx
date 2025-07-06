@@ -13,7 +13,7 @@ export default function Commercial() {
     <div>
       <div className="residential-hero-banner" style={{ backgroundImage: `url('/images/samplework/open.avif')` }}>
         <div style={{ padding: '0 0 6rem 1rem' }}>
-          <div style={{ boxShadow: '0 0 80px 75px rgb(0, 0, 0, .5)', backgroundColor: 'rgb(0, 0, 0, .5)', borderRadius: '80px', width: '70vw' }}>
+          <div style={{ boxShadow: '0 0 80px 75px rgb(0, 0, 0, .5)', backgroundColor: 'rgb(0, 0, 0, .5)', borderRadius: '80px'}}>
             <h1 className='residential-main-title'>Commercial Services</h1>
           </div>
         </div>

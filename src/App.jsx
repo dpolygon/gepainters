@@ -24,7 +24,7 @@ function App() {
     <div>
       <div className='homesplash'>
         <video loop autoPlay muted playsInline className='homepage-broll'>
-          <source src='videos/May Hero on Vimeo.mp4' type='video/mp4' />
+          <source src='videos/colorbroll.mp4' type='video/mp4' />
         </video>
         <div style={{ margin: '2.75rem 0 0 2rem', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
           <img className='splash-logo' style={{ height: '60px', width: '60px', marginRight: '10px' }} src='/images/logo.svg'></img>
@@ -41,8 +41,8 @@ function App() {
           <span>Our <span className="gradient-text">Craft.</span></span>
         </h1>
         <div className='services'>
-          <ServiceCell src='/images/residential.jpg' link='/residential' title='Residential' icon={BiSolidHomeHeart} subtitle='Make your house feel like home inside and out' desc='From modern makeovers to careful restorations, we specialize in custom interior and exterior painting, trim work, and surface repairs that stand the test of time.' />
-          <ServiceCell src='/images/commercial.jpg' link='/commercial' title='Commercial' icon={MdAddBusiness} subtitle='We help Austin’s businesses look their best' desc='Whether it’s a fresh coat for a retail space, durable finishes for apartments, or precision striping in a parking lot.' />
+          <ServiceCell src='/videos/residential.mp4' link='/residential' title='Residential' icon={BiSolidHomeHeart} subtitle='Make your house feel like home inside and out' desc='From modern makeovers to careful restorations, we specialize in custom interior and exterior painting, trim work, and surface repairs that stand the test of time.' />
+          <ServiceCell src='/videos/commercial.mp4' link='/commercial' title='Commercial' icon={MdAddBusiness} subtitle='We help Austin’s businesses look their best' desc='Whether it’s a fresh coat for a retail space, durable finishes for apartments, or precision striping in a parking lot.' />
         </div>
       </div>
       <div className='choose-gepainter'>

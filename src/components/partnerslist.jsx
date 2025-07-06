@@ -9,9 +9,17 @@ const builders = [
     link: "https://foursquarebuilders.com/"
   },
   {
+    logo: 'images/partnerlogos/partner11.jpg',
+    link: "https://stuarthomecorp.com/"
+  },
+  {
     logo: 'images/partnerlogos/partner1.webp',
     link: "https://jaureguiarchitect.com/"
   },
+  {
+    logo: 'images/partnerlogos/partner10.jpg',
+    link: "https://ca-builders.com/?"
+  }, 
   {
     logo: 'images/partnerlogos/partner2.jpg',
     link: "https://tomhobbsco.com/"
@@ -33,25 +41,17 @@ const builders = [
     link: "https://senderohomes.com"
   },
   {
-    logo: 'images/partnerlogos/partner7.jpg',
-    link: "https://www.heylhomes.com/"
-  },
-  {
     logo: 'images/partnerlogos/partner8.jpg',
     link: "https://www.capitexhomes.com/"
+  },
+  {
+    logo: 'images/partnerlogos/partner7.jpg',
+    link: "https://www.heylhomes.com/"
   },
   {
     logo: 'images/partnerlogos/partner9.jpg',
     link: "https://www.wildehomes.com/"
   },
-  {
-    logo: 'images/partnerlogos/partner10.jpg',
-    link: "https://ca-builders.com/?"
-  }, 
-  {
-    logo: 'images/partnerlogos/partner11.jpg',
-    link: "https://stuarthomecorp.com/"
-  }
 ];
 
 
