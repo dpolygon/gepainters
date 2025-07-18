@@ -34,22 +34,25 @@ export default function ContactUsForm() {
                 if (!res.ok) {
                     throw new Error("Failed to enqueue task");
                 }
+
                 setMessage({
                     name: "",
                     phoneNumber: "",
                     address: "",
                     memo: "",
                 });
+
+                alert("Your message was delivered, thank you!");
             })
             .catch((err) => {
-                alert("Something went wrong sending your message.");
+                alert("Something went wrong sending your message. Try again");
                 console.error("Send failed:", err);
             })
             .finally(() => {
-                alert("Your message was delivered, thank you!")
                 setIsLoading(false);
             });
     }
+
 
 
     return (
