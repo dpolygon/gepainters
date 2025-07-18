@@ -1,31 +1,31 @@
 [
   {
-    "id": 15,
-    "imageUrl": "images/samplework/samp1.jpg",
-    "descriptor": "Durable Shine",
-    "title": "Epoxy floor coatings"
-  },
-  {
     "id": 16,
-    "imageUrl": "images/samplework/samp2.jpg",
+    "imageUrl": "/images/residential/decorative.avif",
     "descriptor": "Stylish Layer",
     "title": "Decorative concrete coatings"
   },
   {
     "id": 17,
-    "imageUrl": "images/samplework/samp3.jpg",
+    "imageUrl": "/images/residential/staining.jpg",
     "descriptor": "Enhanced Tone",
     "title": "Concrete staining and sealing"
   },
   {
     "id": 18,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "/images/residential/garage.avif",
     "descriptor": "Clean Upgrade",
     "title": "Garage floor painting"
   },
   {
+    "id": 15,
+    "imageUrl": "/images/residential/epoxy.png",
+    "descriptor": "Durable Shine",
+    "title": "Epoxy floor coatings"
+  },
+  {
     "id": 19,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "/images/residential/antislip.png",
     "descriptor": "Safety Grip",
     "title": "Slip-resistant coatings"
   }

@@ -46,7 +46,7 @@
   padding: 1rem;
   border-radius: 32px;
   display: inline-block;
-  border: solid 2px black;
+  border: solid 1px white;
   transition: all 0.3s ease;
 }
 

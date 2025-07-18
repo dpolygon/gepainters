@@ -1,44 +1,44 @@
 [
   {
-    "id": 8,
-    "imageUrl": "images/samplework/samp5.jpg",
-    "descriptor": "Smooth Base",
-    "title": "Drywall repair and patching"
+    "id": 14,
+    "imageUrl": "/images/commercial/pressure.avif",
+    "descriptor": "Deep Clean",
+    "title": "Pressure washing for siding, driveways, patios, and more"
   },
   {
     "id": 9,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "/images/residential/woodrot.png",
     "descriptor": "Structural Care",
     "title": "Wood rot repair and replacement"
   },
   {
+    "id": 8,
+    "imageUrl": "/images/residential/drywall.jpg",
+    "descriptor": "Smooth Base",
+    "title": "Drywall repair and patching"
+  },
+  {
     "id": 10,
-    "imageUrl": "images/samplework/samp3.jpg",
+    "imageUrl": "/images/residential/wallpaper.png",
     "descriptor": "Clean Slate",
     "title": "Wallpaper removal"
   },
   {
-    "id": 11,
-    "imageUrl": "images/samplework/samp1.jpg",
-    "descriptor": "Modern Upgrade",
-    "title": "Popcorn ceiling removal"
-  },
-  {
     "id": 12,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "/images/residential/texturing.png",
     "descriptor": "Seamless Finish",
     "title": "Texture matching and ceiling/wall resurfacing"
   },
   {
-    "id": 13,
-    "imageUrl": "images/samplework/samp1.jpg",
-    "descriptor": "Protective Seal",
-    "title": "Caulking and sealing gaps"
+    "id": 11,
+    "imageUrl": "/images/residential/popcorn.png",
+    "descriptor": "Modern Upgrade",
+    "title": "Popcorn ceiling removal"
   },
   {
-    "id": 14,
-    "imageUrl": "images/samplework/samp1.jpg",
-    "descriptor": "Deep Clean",
-    "title": "Pressure washing for siding, driveways, patios, and more"
+    "id": 13,
+    "imageUrl": "/images/residential/caulking.png",
+    "descriptor": "Protective Seal",
+    "title": "Caulking and sealing gaps"
   }
 ]

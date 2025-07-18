@@ -1,44 +1,56 @@
 [
   {
     "id": 1,
-    "imageUrl": "images/samplework/samp2.jpg",
+    "imageUrl": "/images/residential/interior.avif",
     "descriptor": "Crisp Coverage",
     "title": "Interior wall and ceiling painting"
   },
   {
+    "id": 8,
+    "imageUrl": "/images/residential/full-exterior.avif",
+    "descriptor": "Complete Coverage",
+    "title": "Full exterior house painting"
+  },
+  {
     "id": 2,
-    "imageUrl": "images/samplework/samp4.jpg",
+    "imageUrl": "/images/residential/accent-wall.avif",
     "descriptor": "Focal Feature",
     "title": "Accent walls"
   },
   {
     "id": 3,
-    "imageUrl": "images/samplework/samp3.jpg",
+    "imageUrl": "/images/residential/exterior.jpg",
     "descriptor": "Weather-Resistant",
     "title": "Exterior siding, brick, stucco, and trim painting"
   },
   {
     "id": 4,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "/images/residential/trim-molding.avif",
     "descriptor": "Detailed Trim",
     "title": "Crown molding and baseboard painting"
   },
   {
     "id": 5,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "/images/residential/cabinets.avif",
     "descriptor": "Refined Finish",
     "title": "Cabinet painting and staining"
   },
   {
     "id": 6,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "/images/residential/windows-doors.avif",
     "descriptor": "Refresh Touch",
     "title": "Recoat windows and door frames"
   },
   {
     "id": 7,
-    "imageUrl": "images/samplework/samp1.jpg",
+    "imageUrl": "/images/residential/brick-refresh.png",
     "descriptor": "Exterior Revamp",
     "title": "Brick homes painting and color refreshes"
+  },
+  {
+    "id": 9,
+    "imageUrl": "/images/residential/door-painting.avif",
+    "descriptor": "Welcoming Entry",
+    "title": "Front door and entryway painting"
   }
 ]

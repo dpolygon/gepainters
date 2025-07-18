@@ -1,25 +1,25 @@
 [
   {
     "id": 9,
-    "imageUrl": "images/commercial/condominium.avif",
+    "imageUrl": "/images/commercial/condominium.avif",
     "descriptor": "Tenant Ready",
     "title": "Apartments and condominiums"
   },
   {
     "id": 10,
-    "imageUrl": "images/commercial/duplex.avif",
+    "imageUrl": "/images/commercial/duplex.avif",
     "descriptor": "Multi-Unit",
     "title": "Duplexes and fourplexes"
   },
   {
     "id": 11,
-    "imageUrl": "images/commercial/complex.avif",
+    "imageUrl": "/images/commercial/complex.avif",
     "descriptor": "Portfolio Scale",
     "title": "Multi-building complexes"
   },
   {
     "id": 12,
-    "imageUrl": "images/commercial/turnover.avif",
+    "imageUrl": "/images/commercial/turnover.avif",
     "descriptor": "Quick Turnover",
     "title": "Rental turnover painting"
   }
