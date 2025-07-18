@@ -7,37 +7,37 @@
   },
   {
     "id": 9,
-    "imageUrl": "/images/residential/samp1.png",
+    "imageUrl": "/images/residential/woodrot.png",
     "descriptor": "Structural Care",
     "title": "Wood rot repair and replacement"
   },
   {
     "id": 8,
-    "imageUrl": "/images/residential/samp6.jpg",
+    "imageUrl": "/images/residential/drywall.jpg",
     "descriptor": "Smooth Base",
     "title": "Drywall repair and patching"
   },
   {
     "id": 10,
-    "imageUrl": "/images/residential/samp3.png",
+    "imageUrl": "/images/residential/wallpaper.png",
     "descriptor": "Clean Slate",
     "title": "Wallpaper removal"
   },
   {
     "id": 12,
-    "imageUrl": "/images/residential/samp2.png",
+    "imageUrl": "/images/residential/texturing.png",
     "descriptor": "Seamless Finish",
     "title": "Texture matching and ceiling/wall resurfacing"
   },
   {
     "id": 11,
-    "imageUrl": "/images/residential/samp4.png",
+    "imageUrl": "/images/residential/popcorn.png",
     "descriptor": "Modern Upgrade",
     "title": "Popcorn ceiling removal"
   },
   {
     "id": 13,
-    "imageUrl": "/images/residential/samp5.png",
+    "imageUrl": "/images/residential/caulking.png",
     "descriptor": "Protective Seal",
     "title": "Caulking and sealing gaps"
   }
